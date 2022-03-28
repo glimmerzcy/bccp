@@ -1,0 +1,43 @@
+2022/01/05 20:37:37 map[id:[node-1] operation:[new]]
+2022/01/05 20:37:37 map[id:[node-1] operation:[add] url:[localhost:1000]]
+2022/01/05 20:37:37 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 20:37:37.881649 node.go:52: do add
+node-1 2022/01/05 20:37:37.881649 node.go:577: f: 0 ; 2f: 0
+2022/01/05 20:37:37 http:///node?from=center&operation=setF&to=node-1
+2022/01/05 20:37:37 map[id:[node-2] operation:[new]]
+2022/01/05 20:37:37 map[id:[node-2] operation:[add] url:[localhost:1000]]
+2022/01/05 20:37:37 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 20:37:37.881649 node.go:52: do add
+node-1 2022/01/05 20:37:37.882161 node.go:577: f: 1 ; 2f: 1
+2022/01/05 20:37:37 map[from:[center] operation:[add] to:[node-2]]
+node-2 2022/01/05 20:37:37.882674 node.go:52: do add
+node-2 2022/01/05 20:37:37.882674 node.go:577: f: 0 ; 2f: 0
+2022/01/05 20:37:37 http:///node?from=center&operation=setF&to=node-2
+2022/01/05 20:37:37 map[id:[node-3] operation:[new]]
+2022/01/05 20:37:37 map[id:[node-3] operation:[add] url:[localhost:1000]]
+2022/01/05 20:37:37 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 20:37:37.882674 node.go:52: do add
+node-1 2022/01/05 20:37:37.882674 node.go:577: f: 1 ; 2f: 2
+2022/01/05 20:37:37 map[from:[center] operation:[add] to:[node-2]]
+node-2 2022/01/05 20:37:37.882674 node.go:52: do add
+node-2 2022/01/05 20:37:37.882674 node.go:577: f: 1 ; 2f: 1
+2022/01/05 20:37:37 map[from:[center] operation:[add] to:[node-3]]
+node-3 2022/01/05 20:37:37.882674 node.go:52: do add
+node-3 2022/01/05 20:37:37.882674 node.go:577: f: 0 ; 2f: 0
+2022/01/05 20:37:37 http:///node?from=center&operation=setF&to=node-3
+2022/01/05 20:37:37 map[id:[node-4] operation:[new]]
+2022/01/05 20:37:37 map[id:[node-4] operation:[add] url:[localhost:1000]]
+2022/01/05 20:37:37 map[from:[center] operation:[add] to:[node-4]]
+node-4 2022/01/05 20:37:37.883293 node.go:52: do add
+node-4 2022/01/05 20:37:37.883293 node.go:577: f: 0 ; 2f: 0
+2022/01/05 20:37:37 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 20:37:37.883293 node.go:52: do add
+node-1 2022/01/05 20:37:37.883293 node.go:577: f: 1 ; 2f: 2
+2022/01/05 20:37:37 map[from:[center] operation:[add] to:[node-2]]
+node-2 2022/01/05 20:37:37.883293 node.go:52: do add
+node-2 2022/01/05 20:37:37.883293 node.go:577: f: 1 ; 2f: 2
+2022/01/05 20:37:37 map[from:[center] operation:[add] to:[node-3]]
+node-3 2022/01/05 20:37:37.883293 node.go:52: do add
+node-3 2022/01/05 20:37:37.883293 node.go:577: f: 1 ; 2f: 1
+2022/01/05 20:37:37 http:///node?from=center&operation=setF&to=node-4
+2022/01/05 20:37:37 http:///node?from=center&operation=client&to=node-1

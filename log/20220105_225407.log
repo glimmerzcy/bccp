@@ -1,0 +1,121 @@
+node-5 2022/01/05 22:54:07.692317 node.go:52: do add
+node-5 2022/01/05 22:54:07.692317 node.go:582: f: 0 ; 2f: 0
+node-5 2022/01/05 22:54:07.692317 node.go:52: do setF
+node-5 2022/01/05 22:54:07.692317 node.go:582: f: 2 ; 2f: 3
+node-5 2022/01/05 22:54:07.692317 node.go:52: do pre-prepare
+node-5 2022/01/05 22:54:07.694315 node.go:52: do prepare
+node-5 2022/01/05 22:54:07.694315 node.go:52: do prepare
+node-5 2022/01/05 22:54:07.694315 node.go:52: do prepare
+node-5 2022/01/05 22:54:07.694315 node.go:52: do commit
+node-5 2022/01/05 22:54:07.695311 node.go:52: do commit
+node-5 2022/01/05 22:54:07.695311 node.go:52: do commit
+node-5 2022/01/05 22:54:07.695311 node.go:134: Committed value: node-1, 1641394447, Test, 1641394437580355610
+node-5 2022/01/05 22:54:07.696318 node.go:52: do commit
+node-5 2022/01/05 22:54:07.696318 node.go:136: 
+node-5 2022/01/05 22:54:07.696318 node.go:140: Reply Finished!
+node-5 2022/01/05 22:54:08.700116 node.go:52: do client
+node-5 2022/01/05 22:54:08.700116 node.go:111: Start request as Client, time: 1641394448700116
+node-5 2022/01/05 22:54:08.701126 node.go:52: do pre-prepare
+node-5 2022/01/05 22:54:08.703117 node.go:52: do prepare
+node-5 2022/01/05 22:54:08.703117 node.go:52: do prepare
+node-5 2022/01/05 22:54:08.703117 node.go:52: do prepare
+node-5 2022/01/05 22:54:08.704333 node.go:52: do commit
+node-5 2022/01/05 22:54:08.704333 node.go:52: do commit
+node-5 2022/01/05 22:54:08.704333 node.go:52: do commit
+node-5 2022/01/05 22:54:08.704333 node.go:52: do reply
+node-5 2022/01/05 22:54:08.704333 node.go:123: Result: Executed by node-1
+node-5 2022/01/05 22:54:08.704333 node.go:52: do commit
+node-5 2022/01/05 22:54:08.705332 node.go:134: Committed value: node-1, 1641394447, Test, 1641394437580355610
+node-5 2022/01/05 22:54:08.705332 node.go:134: Committed value: node-5, 1641394448, Test, 1641394437580355611
+node-5 2022/01/05 22:54:08.705332 node.go:136: 
+node-5 2022/01/05 22:54:08.705332 node.go:140: Reply Finished!
+node-5 2022/01/05 22:54:08.705332 node.go:52: do reply
+node-5 2022/01/05 22:54:08.705332 node.go:52: do reply
+node-5 2022/01/05 22:54:08.705332 node.go:123: Result: Executed by node-2
+node-5 2022/01/05 22:54:08.705332 node.go:123: Result: Executed by node-5
+node-5 2022/01/05 22:54:08.705332 node.go:52: do reply
+node-5 2022/01/05 22:54:08.705332 node.go:123: Result: Executed by node-4
+node-5 2022/01/05 22:54:08.705332 node.go:116: Request Finished! Delay: 5216
+node-5 2022/01/05 22:54:08.705332 node.go:117: 1641394448700116 1641394448705332
+node-5 2022/01/05 22:54:08.706114 node.go:52: do reply
+node-5 2022/01/05 22:54:08.706114 node.go:123: Result: Executed by node-3
+node-5 2022/01/05 22:54:09.709022 node.go:52: do client
+node-5 2022/01/05 22:54:09.709022 node.go:111: Start request as Client, time: 1641394449709022
+node-5 2022/01/05 22:54:09.710034 node.go:52: do pre-prepare
+node-5 2022/01/05 22:54:09.711025 node.go:52: do prepare
+node-5 2022/01/05 22:54:09.712024 node.go:52: do prepare
+node-5 2022/01/05 22:54:09.712024 node.go:52: do prepare
+node-5 2022/01/05 22:54:09.712969 node.go:52: do commit
+node-5 2022/01/05 22:54:09.714533 node.go:52: do commit
+node-5 2022/01/05 22:54:09.715533 node.go:52: do commit
+node-5 2022/01/05 22:54:09.715533 node.go:134: Committed value: node-1, 1641394447, Test, 1641394437580355610
+node-5 2022/01/05 22:54:09.715533 node.go:134: Committed value: node-5, 1641394448, Test, 1641394437580355611
+node-5 2022/01/05 22:54:09.715533 node.go:134: Committed value: node-5, 1641394449, Test, 1641394437580355612
+node-5 2022/01/05 22:54:09.715533 node.go:136: 
+node-5 2022/01/05 22:54:09.715533 node.go:140: Reply Finished!
+node-5 2022/01/05 22:54:09.715533 node.go:52: do reply
+node-5 2022/01/05 22:54:09.715533 node.go:123: Result: Executed by node-4
+node-5 2022/01/05 22:54:09.715533 node.go:52: do reply
+node-5 2022/01/05 22:54:09.715533 node.go:123: Result: Executed by node-3
+node-5 2022/01/05 22:54:09.715533 node.go:52: do commit
+node-5 2022/01/05 22:54:09.715533 node.go:52: do reply
+node-5 2022/01/05 22:54:09.715533 node.go:52: do reply
+node-5 2022/01/05 22:54:09.715533 node.go:123: Result: Executed by node-1
+node-5 2022/01/05 22:54:09.715533 node.go:123: Result: Executed by node-2
+node-5 2022/01/05 22:54:09.715533 node.go:116: Request Finished! Delay: 6511
+node-5 2022/01/05 22:54:09.715533 node.go:117: 1641394449709022 1641394449715533
+node-5 2022/01/05 22:54:09.716531 node.go:52: do reply
+node-5 2022/01/05 22:54:09.716531 node.go:123: Result: Executed by node-5
+node-5 2022/01/05 22:54:10.718181 node.go:52: do pre-prepare
+node-5 2022/01/05 22:54:10.720325 node.go:52: do prepare
+node-5 2022/01/05 22:54:10.720325 node.go:52: do prepare
+node-5 2022/01/05 22:54:10.721118 node.go:52: do prepare
+node-5 2022/01/05 22:54:10.721118 node.go:52: do commit
+node-5 2022/01/05 22:54:10.722412 node.go:52: do commit
+node-5 2022/01/05 22:54:10.722412 node.go:52: do commit
+node-5 2022/01/05 22:54:10.722412 node.go:134: Committed value: node-1, 1641394447, Test, 1641394437580355610
+node-5 2022/01/05 22:54:10.722412 node.go:134: Committed value: node-5, 1641394448, Test, 1641394437580355611
+node-5 2022/01/05 22:54:10.722412 node.go:134: Committed value: node-5, 1641394449, Test, 1641394437580355612
+node-5 2022/01/05 22:54:10.722412 node.go:134: Committed value: node-3, 1641394450, Test, 1641394437580355613
+node-5 2022/01/05 22:54:10.722412 node.go:136: 
+node-5 2022/01/05 22:54:10.722412 node.go:140: Reply Finished!
+node-5 2022/01/05 22:54:10.723421 node.go:52: do commit
+node-5 2022/01/05 22:54:11.730182 node.go:52: do pre-prepare
+node-5 2022/01/05 22:54:11.732357 node.go:52: do prepare
+node-5 2022/01/05 22:54:11.732357 node.go:52: do prepare
+node-5 2022/01/05 22:54:11.732357 node.go:52: do prepare
+node-5 2022/01/05 22:54:11.733302 node.go:52: do commit
+node-5 2022/01/05 22:54:11.733302 node.go:52: do commit
+node-5 2022/01/05 22:54:11.734302 node.go:52: do commit
+node-5 2022/01/05 22:54:11.734302 node.go:134: Committed value: node-1, 1641394447, Test, 1641394437580355610
+node-5 2022/01/05 22:54:11.734302 node.go:134: Committed value: node-5, 1641394448, Test, 1641394437580355611
+node-5 2022/01/05 22:54:11.734302 node.go:134: Committed value: node-5, 1641394449, Test, 1641394437580355612
+node-5 2022/01/05 22:54:11.734302 node.go:134: Committed value: node-3, 1641394450, Test, 1641394437580355613
+node-5 2022/01/05 22:54:11.734302 node.go:134: Committed value: node-2, 1641394451, Test, 1641394437580355614
+node-5 2022/01/05 22:54:11.734302 node.go:136: 
+node-5 2022/01/05 22:54:11.734302 node.go:140: Reply Finished!
+node-5 2022/01/05 22:54:11.734302 node.go:52: do commit
+node-5 2022/01/05 22:54:12.738371 node.go:52: do client
+node-5 2022/01/05 22:54:12.738371 node.go:111: Start request as Client, time: 1641394452738371
+node-5 2022/01/05 22:54:12.739380 node.go:52: do pre-prepare
+node-5 2022/01/05 22:54:12.741405 node.go:52: do prepare
+node-5 2022/01/05 22:54:12.741405 node.go:52: do prepare
+node-5 2022/01/05 22:54:12.742000 node.go:52: do prepare
+node-5 2022/01/05 22:54:12.743011 node.go:52: do commit
+node-5 2022/01/05 22:54:12.744591 node.go:52: do commit
+node-5 2022/01/05 22:54:12.744591 node.go:52: do commit
+node-5 2022/01/05 22:54:12.744591 node.go:134: Committed value: node-1, 1641394447, Test, 1641394437580355610
+node-5 2022/01/05 22:54:12.744591 node.go:134: Committed value: node-5, 1641394448, Test, 1641394437580355611
+node-5 2022/01/05 22:54:12.744591 node.go:134: Committed value: node-5, 1641394449, Test, 1641394437580355612
+node-5 2022/01/05 22:54:12.744591 node.go:134: Committed value: node-3, 1641394450, Test, 1641394437580355613
+node-5 2022/01/05 22:54:12.744591 node.go:134: Committed value: node-2, 1641394451, Test, 1641394437580355614
+node-5 2022/01/05 22:54:12.744591 node.go:52: do commit
+node-5 2022/01/05 22:54:12.744591 node.go:134: Committed value: node-5, 1641394452, Test, 1641394437580355615
+node-5 2022/01/05 22:54:12.744591 node.go:136: 
+node-5 2022/01/05 22:54:12.744591 node.go:140: Reply Finished!
+node-5 2022/01/05 22:54:12.744591 node.go:52: do reply
+node-5 2022/01/05 22:54:12.744591 node.go:123: Result: Executed by node-4
+node-5 2022/01/05 22:54:12.744591 node.go:52: do reply
+node-5 2022/01/05 22:54:12.744591 node.go:123: Result: Executed by node-3
+node-5 2022/01/05 22:54:12.744591 node.go:52: do reply
+node-5 2022/01/05 22:54:12.744591 node.go:123: Result: Executed by node-5

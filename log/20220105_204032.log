@@ -1,0 +1,433 @@
+node-13 2022/01/05 20:40:32.060676 node.go:52: do add
+node-13 2022/01/05 20:40:32.060676 node.go:577: f: 0 ; 2f: 0
+node-13 2022/01/05 20:40:32.060676 node.go:52: do setF
+node-13 2022/01/05 20:40:32.060676 node.go:577: f: 4 ; 2f: 8
+node-13 2022/01/05 20:40:32.062670 node.go:52: do prepare
+node-13 2022/01/05 20:40:32.063668 node.go:52: do prepare
+node-13 2022/01/05 20:40:32.062670 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:32.064665 node.go:52: do prepare
+node-13 2022/01/05 20:40:32.066352 node.go:52: do prepare
+node-13 2022/01/05 20:40:32.066352 node.go:52: do prepare
+node-13 2022/01/05 20:40:32.067351 node.go:52: do prepare
+node-13 2022/01/05 20:40:32.067351 node.go:52: do commit
+node-13 2022/01/05 20:40:32.069348 node.go:52: do prepare
+node-13 2022/01/05 20:40:32.069348 node.go:52: do commit
+node-13 2022/01/05 20:40:32.070350 node.go:52: do prepare
+node-13 2022/01/05 20:40:32.070350 node.go:52: do prepare
+node-13 2022/01/05 20:40:32.070350 node.go:52: do prepare
+node-13 2022/01/05 20:40:32.070350 node.go:52: do commit
+node-13 2022/01/05 20:40:32.070350 node.go:52: do commit
+node-13 2022/01/05 20:40:32.072338 node.go:52: do commit
+node-13 2022/01/05 20:40:32.072338 node.go:52: do commit
+node-13 2022/01/05 20:40:32.073335 node.go:52: do prepare
+node-13 2022/01/05 20:40:32.073335 node.go:52: do commit
+node-13 2022/01/05 20:40:32.073335 node.go:52: do commit
+node-13 2022/01/05 20:40:32.073335 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:32.073335 node.go:135: 
+node-13 2022/01/05 20:40:32.073335 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:32.074339 node.go:52: do commit
+node-13 2022/01/05 20:40:32.075330 node.go:52: do commit
+node-13 2022/01/05 20:40:32.076328 node.go:52: do commit
+node-13 2022/01/05 20:40:32.077325 node.go:52: do commit
+node-13 2022/01/05 20:40:33.086895 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:33.089897 node.go:52: do prepare
+node-13 2022/01/05 20:40:33.090905 node.go:52: do commit
+node-13 2022/01/05 20:40:33.090905 node.go:52: do commit
+node-13 2022/01/05 20:40:33.090905 node.go:52: do prepare
+node-13 2022/01/05 20:40:33.091892 node.go:52: do prepare
+node-13 2022/01/05 20:40:33.091892 node.go:52: do prepare
+node-13 2022/01/05 20:40:33.093884 node.go:52: do prepare
+node-13 2022/01/05 20:40:33.093884 node.go:52: do prepare
+node-13 2022/01/05 20:40:33.093884 node.go:52: do prepare
+node-13 2022/01/05 20:40:33.093884 node.go:52: do commit
+node-13 2022/01/05 20:40:33.094883 node.go:52: do prepare
+node-13 2022/01/05 20:40:33.095880 node.go:52: do commit
+node-13 2022/01/05 20:40:33.096906 node.go:52: do prepare
+node-13 2022/01/05 20:40:33.096906 node.go:52: do commit
+node-13 2022/01/05 20:40:33.097905 node.go:52: do commit
+node-13 2022/01/05 20:40:33.097905 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:33.097905 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:33.097905 node.go:135: 
+node-13 2022/01/05 20:40:33.097905 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:33.097905 node.go:52: do commit
+node-13 2022/01/05 20:40:33.098903 node.go:52: do commit
+node-13 2022/01/05 20:40:33.098903 node.go:52: do prepare
+node-13 2022/01/05 20:40:33.098903 node.go:52: do commit
+node-13 2022/01/05 20:40:33.099901 node.go:52: do commit
+node-13 2022/01/05 20:40:33.100897 node.go:52: do commit
+node-13 2022/01/05 20:40:33.100897 node.go:52: do commit
+node-13 2022/01/05 20:40:33.101896 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.114948 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.114948 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.114948 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.114948 node.go:52: do commit
+node-13 2022/01/05 20:40:34.115942 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:34.115942 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.116941 node.go:52: do commit
+node-13 2022/01/05 20:40:34.116941 node.go:52: do commit
+node-13 2022/01/05 20:40:34.117937 node.go:52: do commit
+node-13 2022/01/05 20:40:34.117937 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.117937 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.118934 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.121343 node.go:52: do commit
+node-13 2022/01/05 20:40:34.121343 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:34.121343 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:34.121343 node.go:133: Committed value: node-5, 1641386434, Test, 1641386340740035792
+node-13 2022/01/05 20:40:34.121343 node.go:135: 
+node-13 2022/01/05 20:40:34.121343 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:34.121343 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.122348 node.go:52: do commit
+node-13 2022/01/05 20:40:34.122348 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.122348 node.go:52: do commit
+node-13 2022/01/05 20:40:34.123340 node.go:52: do commit
+node-13 2022/01/05 20:40:34.123340 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.124337 node.go:52: do prepare
+node-13 2022/01/05 20:40:34.124337 node.go:52: do commit
+node-13 2022/01/05 20:40:34.125336 node.go:52: do commit
+node-13 2022/01/05 20:40:34.125336 node.go:52: do commit
+node-13 2022/01/05 20:40:34.126332 node.go:52: do commit
+node-13 2022/01/05 20:40:35.122423 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:35.124416 node.go:52: do prepare
+node-13 2022/01/05 20:40:35.124416 node.go:52: do prepare
+node-13 2022/01/05 20:40:35.125414 node.go:52: do prepare
+node-13 2022/01/05 20:40:35.125414 node.go:52: do prepare
+node-13 2022/01/05 20:40:35.125414 node.go:52: do commit
+node-13 2022/01/05 20:40:35.126411 node.go:52: do commit
+node-13 2022/01/05 20:40:35.126411 node.go:52: do commit
+node-13 2022/01/05 20:40:35.127409 node.go:52: do commit
+node-13 2022/01/05 20:40:35.128406 node.go:52: do prepare
+node-13 2022/01/05 20:40:35.130401 node.go:52: do commit
+node-13 2022/01/05 20:40:35.130401 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:35.130401 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:35.130401 node.go:133: Committed value: node-5, 1641386434, Test, 1641386340740035792
+node-13 2022/01/05 20:40:35.130401 node.go:133: Committed value: node-9, 1641386435, Test, 1641386340740035793
+node-13 2022/01/05 20:40:35.130401 node.go:135: 
+node-13 2022/01/05 20:40:35.130401 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:35.130401 node.go:52: do commit
+node-13 2022/01/05 20:40:35.131399 node.go:52: do commit
+node-13 2022/01/05 20:40:35.131399 node.go:52: do prepare
+node-13 2022/01/05 20:40:35.131399 node.go:52: do prepare
+node-13 2022/01/05 20:40:35.132400 node.go:52: do prepare
+node-13 2022/01/05 20:40:35.133395 node.go:52: do prepare
+node-13 2022/01/05 20:40:35.133395 node.go:52: do prepare
+node-13 2022/01/05 20:40:35.134391 node.go:52: do commit
+node-13 2022/01/05 20:40:35.135388 node.go:52: do prepare
+node-13 2022/01/05 20:40:35.135388 node.go:52: do commit
+node-13 2022/01/05 20:40:35.138384 node.go:52: do commit
+node-13 2022/01/05 20:40:35.138384 node.go:52: do commit
+node-13 2022/01/05 20:40:35.139379 node.go:52: do commit
+node-13 2022/01/05 20:40:36.132973 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:36.133832 node.go:52: do prepare
+node-13 2022/01/05 20:40:36.133832 node.go:52: do prepare
+node-13 2022/01/05 20:40:36.134828 node.go:52: do prepare
+node-13 2022/01/05 20:40:36.134828 node.go:52: do prepare
+node-13 2022/01/05 20:40:36.134828 node.go:52: do prepare
+node-13 2022/01/05 20:40:36.135825 node.go:52: do commit
+node-13 2022/01/05 20:40:36.135825 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:36.135825 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:36.135825 node.go:133: Committed value: node-5, 1641386434, Test, 1641386340740035792
+node-13 2022/01/05 20:40:36.135825 node.go:133: Committed value: node-9, 1641386435, Test, 1641386340740035793
+node-13 2022/01/05 20:40:36.135825 node.go:133: Committed value: node-12, 1641386436, Test, 1641386340740035794
+node-13 2022/01/05 20:40:36.135825 node.go:135: 
+node-13 2022/01/05 20:40:36.135825 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:36.136823 node.go:52: do commit
+node-13 2022/01/05 20:40:36.137821 node.go:52: do commit
+node-13 2022/01/05 20:40:36.139815 node.go:52: do prepare
+node-13 2022/01/05 20:40:36.140813 node.go:52: do commit
+node-13 2022/01/05 20:40:36.141809 node.go:52: do commit
+node-13 2022/01/05 20:40:36.141809 node.go:52: do commit
+node-13 2022/01/05 20:40:36.142808 node.go:52: do prepare
+node-13 2022/01/05 20:40:36.143805 node.go:52: do prepare
+node-13 2022/01/05 20:40:36.143805 node.go:52: do commit
+node-13 2022/01/05 20:40:36.143805 node.go:52: do commit
+node-13 2022/01/05 20:40:36.143805 node.go:52: do commit
+node-13 2022/01/05 20:40:36.144802 node.go:52: do prepare
+node-13 2022/01/05 20:40:36.144802 node.go:52: do commit
+node-13 2022/01/05 20:40:36.145800 node.go:52: do prepare
+node-13 2022/01/05 20:40:36.146797 node.go:52: do commit
+node-13 2022/01/05 20:40:36.146797 node.go:52: do prepare
+node-13 2022/01/05 20:40:36.147795 node.go:52: do commit
+node-13 2022/01/05 20:40:37.152646 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:37.154637 node.go:52: do commit
+node-13 2022/01/05 20:40:37.156627 node.go:52: do prepare
+node-13 2022/01/05 20:40:37.156627 node.go:52: do commit
+node-13 2022/01/05 20:40:37.157624 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:37.157624 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:37.157624 node.go:133: Committed value: node-5, 1641386434, Test, 1641386340740035792
+node-13 2022/01/05 20:40:37.157624 node.go:133: Committed value: node-9, 1641386435, Test, 1641386340740035793
+node-13 2022/01/05 20:40:37.157624 node.go:133: Committed value: node-12, 1641386436, Test, 1641386340740035794
+node-13 2022/01/05 20:40:37.157624 node.go:133: Committed value: node-9, 1641386437, Test, 1641386340740035795
+node-13 2022/01/05 20:40:37.157624 node.go:135: 
+node-13 2022/01/05 20:40:37.157624 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:37.157624 node.go:52: do prepare
+node-13 2022/01/05 20:40:37.157624 node.go:52: do commit
+node-13 2022/01/05 20:40:37.159619 node.go:52: do commit
+node-13 2022/01/05 20:40:37.162717 node.go:52: do prepare
+node-13 2022/01/05 20:40:37.162717 node.go:52: do commit
+node-13 2022/01/05 20:40:37.162717 node.go:52: do prepare
+node-13 2022/01/05 20:40:37.162717 node.go:52: do prepare
+node-13 2022/01/05 20:40:37.163714 node.go:52: do commit
+node-13 2022/01/05 20:40:37.163714 node.go:52: do commit
+node-13 2022/01/05 20:40:37.163714 node.go:52: do prepare
+node-13 2022/01/05 20:40:37.164712 node.go:52: do prepare
+node-13 2022/01/05 20:40:37.164712 node.go:52: do commit
+node-13 2022/01/05 20:40:37.164712 node.go:52: do prepare
+node-13 2022/01/05 20:40:37.164712 node.go:52: do commit
+node-13 2022/01/05 20:40:37.165708 node.go:52: do prepare
+node-13 2022/01/05 20:40:37.165708 node.go:52: do commit
+node-13 2022/01/05 20:40:37.165708 node.go:52: do commit
+node-13 2022/01/05 20:40:37.170696 node.go:52: do prepare
+node-13 2022/01/05 20:40:37.170696 node.go:52: do commit
+node-13 2022/01/05 20:40:37.172690 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.178873 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:38.180868 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.181858 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.181858 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.182856 node.go:52: do commit
+node-13 2022/01/05 20:40:38.182856 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.182856 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:38.182856 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:38.182856 node.go:133: Committed value: node-5, 1641386434, Test, 1641386340740035792
+node-13 2022/01/05 20:40:38.182856 node.go:133: Committed value: node-9, 1641386435, Test, 1641386340740035793
+node-13 2022/01/05 20:40:38.182856 node.go:133: Committed value: node-12, 1641386436, Test, 1641386340740035794
+node-13 2022/01/05 20:40:38.182856 node.go:133: Committed value: node-9, 1641386437, Test, 1641386340740035795
+node-13 2022/01/05 20:40:38.182856 node.go:133: Committed value: node-11, 1641386438, Test, 1641386340740035796
+node-13 2022/01/05 20:40:38.182856 node.go:135: 
+node-13 2022/01/05 20:40:38.182856 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:38.182856 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.183853 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.183853 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.183853 node.go:52: do commit
+node-13 2022/01/05 20:40:38.188840 node.go:52: do commit
+node-13 2022/01/05 20:40:38.189837 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.189837 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.189837 node.go:52: do commit
+node-13 2022/01/05 20:40:38.189837 node.go:52: do commit
+node-13 2022/01/05 20:40:38.190834 node.go:52: do commit
+node-13 2022/01/05 20:40:38.190834 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.190834 node.go:52: do commit
+node-13 2022/01/05 20:40:38.191833 node.go:52: do commit
+node-13 2022/01/05 20:40:38.191833 node.go:52: do commit
+node-13 2022/01/05 20:40:38.191833 node.go:52: do prepare
+node-13 2022/01/05 20:40:38.193827 node.go:52: do commit
+node-13 2022/01/05 20:40:38.194825 node.go:52: do commit
+node-13 2022/01/05 20:40:38.194825 node.go:52: do commit
+node-13 2022/01/05 20:40:39.198767 node.go:52: do prepare
+node-13 2022/01/05 20:40:39.198767 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:39.198767 node.go:52: do prepare
+node-13 2022/01/05 20:40:39.199755 node.go:52: do prepare
+node-13 2022/01/05 20:40:39.199755 node.go:52: do prepare
+node-13 2022/01/05 20:40:39.199755 node.go:52: do prepare
+node-13 2022/01/05 20:40:39.200754 node.go:52: do prepare
+node-13 2022/01/05 20:40:39.201755 node.go:52: do prepare
+node-13 2022/01/05 20:40:39.205341 node.go:52: do commit
+node-13 2022/01/05 20:40:39.206341 node.go:52: do commit
+node-13 2022/01/05 20:40:39.206341 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:39.206341 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:39.206341 node.go:133: Committed value: node-5, 1641386434, Test, 1641386340740035792
+node-13 2022/01/05 20:40:39.206341 node.go:133: Committed value: node-9, 1641386435, Test, 1641386340740035793
+node-13 2022/01/05 20:40:39.206341 node.go:133: Committed value: node-12, 1641386436, Test, 1641386340740035794
+node-13 2022/01/05 20:40:39.206341 node.go:133: Committed value: node-9, 1641386437, Test, 1641386340740035795
+node-13 2022/01/05 20:40:39.206341 node.go:133: Committed value: node-11, 1641386438, Test, 1641386340740035796
+node-13 2022/01/05 20:40:39.206341 node.go:133: Committed value: node-10, 1641386439, Test, 1641386340740035797
+node-13 2022/01/05 20:40:39.206341 node.go:135: 
+node-13 2022/01/05 20:40:39.206341 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:39.206341 node.go:52: do prepare
+node-13 2022/01/05 20:40:39.206341 node.go:52: do commit
+node-13 2022/01/05 20:40:39.206341 node.go:52: do commit
+node-13 2022/01/05 20:40:39.207338 node.go:52: do commit
+node-13 2022/01/05 20:40:39.208336 node.go:52: do commit
+node-13 2022/01/05 20:40:39.209333 node.go:52: do prepare
+node-13 2022/01/05 20:40:39.209333 node.go:52: do commit
+node-13 2022/01/05 20:40:39.210330 node.go:52: do commit
+node-13 2022/01/05 20:40:39.210330 node.go:52: do prepare
+node-13 2022/01/05 20:40:39.210330 node.go:52: do prepare
+node-13 2022/01/05 20:40:39.211327 node.go:52: do commit
+node-13 2022/01/05 20:40:39.212325 node.go:52: do commit
+node-13 2022/01/05 20:40:39.214319 node.go:52: do commit
+node-13 2022/01/05 20:40:39.215318 node.go:52: do commit
+node-13 2022/01/05 20:40:40.223390 node.go:52: do prepare
+node-13 2022/01/05 20:40:40.223390 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:40.224387 node.go:52: do prepare
+node-13 2022/01/05 20:40:40.224387 node.go:52: do prepare
+node-13 2022/01/05 20:40:40.225384 node.go:52: do prepare
+node-13 2022/01/05 20:40:40.226381 node.go:52: do prepare
+node-13 2022/01/05 20:40:40.230371 node.go:52: do commit
+node-13 2022/01/05 20:40:40.230371 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:40.230371 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:40.230371 node.go:133: Committed value: node-5, 1641386434, Test, 1641386340740035792
+node-13 2022/01/05 20:40:40.230371 node.go:133: Committed value: node-9, 1641386435, Test, 1641386340740035793
+node-13 2022/01/05 20:40:40.230371 node.go:133: Committed value: node-12, 1641386436, Test, 1641386340740035794
+node-13 2022/01/05 20:40:40.230371 node.go:133: Committed value: node-9, 1641386437, Test, 1641386340740035795
+node-13 2022/01/05 20:40:40.230371 node.go:133: Committed value: node-11, 1641386438, Test, 1641386340740035796
+node-13 2022/01/05 20:40:40.230371 node.go:133: Committed value: node-10, 1641386439, Test, 1641386340740035797
+node-13 2022/01/05 20:40:40.230371 node.go:133: Committed value: node-6, 1641386440, Test, 1641386340740035798
+node-13 2022/01/05 20:40:40.230371 node.go:135: 
+node-13 2022/01/05 20:40:40.230371 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:40.230371 node.go:52: do prepare
+node-13 2022/01/05 20:40:40.230371 node.go:52: do commit
+node-13 2022/01/05 20:40:40.231368 node.go:52: do commit
+node-13 2022/01/05 20:40:40.231368 node.go:52: do commit
+node-13 2022/01/05 20:40:40.231368 node.go:52: do commit
+node-13 2022/01/05 20:40:40.232365 node.go:52: do prepare
+node-13 2022/01/05 20:40:40.232365 node.go:52: do commit
+node-13 2022/01/05 20:40:40.232365 node.go:52: do prepare
+node-13 2022/01/05 20:40:40.233363 node.go:52: do commit
+node-13 2022/01/05 20:40:40.234360 node.go:52: do commit
+node-13 2022/01/05 20:40:40.234360 node.go:52: do prepare
+node-13 2022/01/05 20:40:40.234360 node.go:52: do prepare
+node-13 2022/01/05 20:40:40.234360 node.go:52: do prepare
+node-13 2022/01/05 20:40:40.235357 node.go:52: do commit
+node-13 2022/01/05 20:40:40.235357 node.go:52: do commit
+node-13 2022/01/05 20:40:40.235357 node.go:52: do commit
+node-13 2022/01/05 20:40:40.236356 node.go:52: do commit
+node-13 2022/01/05 20:40:41.243933 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:41.244930 node.go:52: do prepare
+node-13 2022/01/05 20:40:41.248919 node.go:52: do prepare
+node-13 2022/01/05 20:40:41.249659 node.go:52: do prepare
+node-13 2022/01/05 20:40:41.251406 node.go:52: do commit
+node-13 2022/01/05 20:40:41.251406 node.go:52: do commit
+node-13 2022/01/05 20:40:41.251406 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:41.251406 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:41.251406 node.go:133: Committed value: node-5, 1641386434, Test, 1641386340740035792
+node-13 2022/01/05 20:40:41.251406 node.go:133: Committed value: node-9, 1641386435, Test, 1641386340740035793
+node-13 2022/01/05 20:40:41.251406 node.go:133: Committed value: node-12, 1641386436, Test, 1641386340740035794
+node-13 2022/01/05 20:40:41.251406 node.go:133: Committed value: node-9, 1641386437, Test, 1641386340740035795
+node-13 2022/01/05 20:40:41.251406 node.go:133: Committed value: node-11, 1641386438, Test, 1641386340740035796
+node-13 2022/01/05 20:40:41.251406 node.go:133: Committed value: node-10, 1641386439, Test, 1641386340740035797
+node-13 2022/01/05 20:40:41.251406 node.go:133: Committed value: node-6, 1641386440, Test, 1641386340740035798
+node-13 2022/01/05 20:40:41.251406 node.go:133: Committed value: node-9, 1641386441, Test, 1641386340740035799
+node-13 2022/01/05 20:40:41.251406 node.go:135: 
+node-13 2022/01/05 20:40:41.251406 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:41.252405 node.go:52: do prepare
+node-13 2022/01/05 20:40:41.252405 node.go:52: do prepare
+node-13 2022/01/05 20:40:41.252405 node.go:52: do commit
+node-13 2022/01/05 20:40:41.252405 node.go:52: do commit
+node-13 2022/01/05 20:40:41.252405 node.go:52: do commit
+node-13 2022/01/05 20:40:41.253402 node.go:52: do commit
+node-13 2022/01/05 20:40:41.253402 node.go:52: do prepare
+node-13 2022/01/05 20:40:41.255397 node.go:52: do commit
+node-13 2022/01/05 20:40:41.255397 node.go:52: do commit
+node-13 2022/01/05 20:40:41.256393 node.go:52: do prepare
+node-13 2022/01/05 20:40:41.258389 node.go:52: do commit
+node-13 2022/01/05 20:40:41.259609 node.go:52: do prepare
+node-13 2022/01/05 20:40:41.259609 node.go:52: do prepare
+node-13 2022/01/05 20:40:41.259609 node.go:52: do prepare
+node-13 2022/01/05 20:40:41.259609 node.go:52: do commit
+node-13 2022/01/05 20:40:41.259609 node.go:52: do commit
+node-13 2022/01/05 20:40:41.260610 node.go:52: do prepare
+node-13 2022/01/05 20:40:41.261607 node.go:52: do commit
+node-13 2022/01/05 20:40:42.271189 node.go:52: do add
+node-13 2022/01/05 20:40:42.271189 node.go:577: f: 5 ; 2f: 9
+node-13 2022/01/05 20:40:42.273185 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:42.275180 node.go:52: do prepare
+node-13 2022/01/05 20:40:42.275180 node.go:52: do commit
+node-13 2022/01/05 20:40:42.275180 node.go:52: do commit
+node-13 2022/01/05 20:40:42.276178 node.go:52: do prepare
+node-13 2022/01/05 20:40:42.276178 node.go:52: do prepare
+node-13 2022/01/05 20:40:42.278174 node.go:52: do commit
+node-13 2022/01/05 20:40:42.278174 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:42.278174 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:42.278174 node.go:133: Committed value: node-5, 1641386434, Test, 1641386340740035792
+node-13 2022/01/05 20:40:42.278174 node.go:133: Committed value: node-9, 1641386435, Test, 1641386340740035793
+node-13 2022/01/05 20:40:42.278174 node.go:133: Committed value: node-12, 1641386436, Test, 1641386340740035794
+node-13 2022/01/05 20:40:42.278174 node.go:133: Committed value: node-9, 1641386437, Test, 1641386340740035795
+node-13 2022/01/05 20:40:42.278174 node.go:133: Committed value: node-11, 1641386438, Test, 1641386340740035796
+node-13 2022/01/05 20:40:42.278174 node.go:133: Committed value: node-10, 1641386439, Test, 1641386340740035797
+node-13 2022/01/05 20:40:42.278174 node.go:133: Committed value: node-6, 1641386440, Test, 1641386340740035798
+node-13 2022/01/05 20:40:42.278174 node.go:133: Committed value: node-9, 1641386441, Test, 1641386340740035799
+node-13 2022/01/05 20:40:42.278174 node.go:133: Committed value: node-12, 1641386442, Test, 1641386340740035800
+node-13 2022/01/05 20:40:42.278174 node.go:135: 
+node-13 2022/01/05 20:40:42.278174 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:42.279179 node.go:52: do commit
+node-13 2022/01/05 20:40:42.279179 node.go:52: do commit
+node-13 2022/01/05 20:40:42.279179 node.go:52: do commit
+node-13 2022/01/05 20:40:42.279179 node.go:52: do prepare
+node-13 2022/01/05 20:40:42.279179 node.go:52: do commit
+node-13 2022/01/05 20:40:42.280169 node.go:52: do prepare
+node-13 2022/01/05 20:40:42.281165 node.go:52: do commit
+node-13 2022/01/05 20:40:42.281165 node.go:52: do commit
+node-13 2022/01/05 20:40:42.281165 node.go:52: do prepare
+node-13 2022/01/05 20:40:42.282162 node.go:52: do prepare
+node-13 2022/01/05 20:40:42.282162 node.go:52: do prepare
+node-13 2022/01/05 20:40:42.282162 node.go:52: do commit
+node-13 2022/01/05 20:40:42.283160 node.go:52: do prepare
+node-13 2022/01/05 20:40:42.283160 node.go:52: do prepare
+node-13 2022/01/05 20:40:42.283160 node.go:52: do prepare
+node-13 2022/01/05 20:40:42.284157 node.go:52: do commit
+node-13 2022/01/05 20:40:42.285155 node.go:52: do commit
+node-13 2022/01/05 20:40:42.286152 node.go:52: do commit
+node-13 2022/01/05 20:40:42.286152 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.288289 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:43.291280 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.291280 node.go:52: do commit
+node-13 2022/01/05 20:40:43.292278 node.go:52: do commit
+node-13 2022/01/05 20:40:43.292278 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.293282 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.294273 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.295275 node.go:52: do commit
+node-13 2022/01/05 20:40:43.295275 node.go:52: do commit
+node-13 2022/01/05 20:40:43.295275 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.295275 node.go:52: do commit
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-5, 1641386434, Test, 1641386340740035792
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-9, 1641386435, Test, 1641386340740035793
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-12, 1641386436, Test, 1641386340740035794
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-9, 1641386437, Test, 1641386340740035795
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-11, 1641386438, Test, 1641386340740035796
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-10, 1641386439, Test, 1641386340740035797
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-6, 1641386440, Test, 1641386340740035798
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-9, 1641386441, Test, 1641386340740035799
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-12, 1641386442, Test, 1641386340740035800
+node-13 2022/01/05 20:40:43.296267 node.go:133: Committed value: node-9, 1641386443, Test, 1641386340740035801
+node-13 2022/01/05 20:40:43.296267 node.go:135: 
+node-13 2022/01/05 20:40:43.296267 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:43.297264 node.go:52: do commit
+node-13 2022/01/05 20:40:43.297264 node.go:52: do commit
+node-13 2022/01/05 20:40:43.297264 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.298262 node.go:52: do commit
+node-13 2022/01/05 20:40:43.298262 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.298262 node.go:52: do commit
+node-13 2022/01/05 20:40:43.298262 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.300258 node.go:52: do commit
+node-13 2022/01/05 20:40:43.300258 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.300258 node.go:52: do commit
+node-13 2022/01/05 20:40:43.302252 node.go:52: do commit
+node-13 2022/01/05 20:40:43.302252 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.302252 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.303249 node.go:52: do prepare
+node-13 2022/01/05 20:40:43.304247 node.go:52: do commit
+node-13 2022/01/05 20:40:44.312101 node.go:52: do client
+node-13 2022/01/05 20:40:44.312101 node.go:110: Start request as Client, time: 1641386444312101
+node-13 2022/01/05 20:40:44.313062 node.go:52: do prepare
+node-13 2022/01/05 20:40:44.315056 node.go:52: do commit
+node-13 2022/01/05 20:40:44.318047 node.go:52: do pre-prepare
+node-13 2022/01/05 20:40:44.318047 node.go:52: do prepare
+node-13 2022/01/05 20:40:44.320042 node.go:52: do commit
+node-13 2022/01/05 20:40:44.320042 node.go:52: do prepare
+node-13 2022/01/05 20:40:44.321040 node.go:52: do prepare
+node-13 2022/01/05 20:40:44.321040 node.go:52: do reply
+node-13 2022/01/05 20:40:44.321040 node.go:122: Result: Executed by node-9
+node-13 2022/01/05 20:40:44.322037 node.go:52: do commit
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-9, 1641386432, Test, 1641386340740035790
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-5, 1641386433, Test, 1641386340740035791
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-5, 1641386434, Test, 1641386340740035792
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-9, 1641386435, Test, 1641386340740035793
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-12, 1641386436, Test, 1641386340740035794
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-9, 1641386437, Test, 1641386340740035795
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-11, 1641386438, Test, 1641386340740035796
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-10, 1641386439, Test, 1641386340740035797
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-6, 1641386440, Test, 1641386340740035798
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-9, 1641386441, Test, 1641386340740035799
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-12, 1641386442, Test, 1641386340740035800
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-9, 1641386443, Test, 1641386340740035801
+node-13 2022/01/05 20:40:44.322037 node.go:133: Committed value: node-13, 1641386444, Test, 1641386340740035802
+node-13 2022/01/05 20:40:44.322037 node.go:135: 
+node-13 2022/01/05 20:40:44.322037 node.go:139: Reply Finished!
+node-13 2022/01/05 20:40:44.322037 node.go:52: do reply
+node-13 2022/01/05 20:40:44.322037 node.go:122: Result: Executed by node-4
+node-13 2022/01/05 20:40:44.323417 node.go:52: do commit
+node-13 2022/01/05 20:40:44.323417 node.go:52: do reply
+node-13 2022/01/05 20:40:44.323417 node.go:122: Result: Executed by node-5
+node-13 2022/01/05 20:40:44.323417 node.go:52: do prepare

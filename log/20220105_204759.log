@@ -1,0 +1,66 @@
+2022/01/05 20:47:59 map[id:[node-1] operation:[new]]
+2022/01/05 20:47:59 map[id:[node-1] msg:[localhost:1000] operation:[add]]
+2022/01/05 20:47:59 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 20:47:59.105487 node.go:52: do add
+node-1 2022/01/05 20:47:59.105487 node.go:582: f: 0 ; 2f: 0
+2022/01/05 20:47:59 map[from:[center] operation:[setF] to:[node-1]]
+node-1 2022/01/05 20:47:59.105487 node.go:52: do setF
+node-1 2022/01/05 20:47:59.105487 node.go:582: f: 0 ; 2f: 0
+2022/01/05 20:47:59 map[id:[node-2] operation:[new]]
+2022/01/05 20:47:59 map[id:[node-2] msg:[localhost:1000] operation:[add]]
+2022/01/05 20:47:59 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 20:47:59.106010 node.go:52: do add
+node-1 2022/01/05 20:47:59.106537 node.go:582: f: 1 ; 2f: 1
+2022/01/05 20:47:59 map[from:[center] operation:[add] to:[node-2]]
+node-2 2022/01/05 20:47:59.106537 node.go:52: do add
+node-2 2022/01/05 20:47:59.106537 node.go:582: f: 0 ; 2f: 0
+2022/01/05 20:47:59 map[from:[center] operation:[setF] to:[node-2]]
+node-2 2022/01/05 20:47:59.106537 node.go:52: do setF
+node-2 2022/01/05 20:47:59.106537 node.go:582: f: 1 ; 2f: 1
+2022/01/05 20:47:59 map[id:[node-3] operation:[new]]
+2022/01/05 20:47:59 map[id:[node-3] msg:[localhost:1000] operation:[add]]
+2022/01/05 20:47:59 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 20:47:59.107072 node.go:52: do add
+node-1 2022/01/05 20:47:59.107072 node.go:582: f: 1 ; 2f: 2
+2022/01/05 20:47:59 map[from:[center] operation:[add] to:[node-2]]
+node-2 2022/01/05 20:47:59.107072 node.go:52: do add
+node-2 2022/01/05 20:47:59.107072 node.go:582: f: 1 ; 2f: 2
+2022/01/05 20:47:59 map[from:[center] operation:[add] to:[node-3]]
+node-3 2022/01/05 20:47:59.107072 node.go:52: do add
+node-3 2022/01/05 20:47:59.107072 node.go:582: f: 0 ; 2f: 0
+2022/01/05 20:47:59 map[from:[center] operation:[setF] to:[node-3]]
+node-3 2022/01/05 20:47:59.107072 node.go:52: do setF
+node-3 2022/01/05 20:47:59.107072 node.go:582: f: 1 ; 2f: 2
+2022/01/05 20:47:59 map[id:[node-4] operation:[new]]
+2022/01/05 20:47:59 map[id:[node-4] msg:[localhost:1000] operation:[add]]
+2022/01/05 20:47:59 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 20:47:59.107072 node.go:52: do add
+node-1 2022/01/05 20:47:59.107072 node.go:582: f: 1 ; 2f: 2
+2022/01/05 20:47:59 map[from:[center] operation:[add] to:[node-2]]
+node-2 2022/01/05 20:47:59.107072 node.go:52: do add
+node-2 2022/01/05 20:47:59.107072 node.go:582: f: 1 ; 2f: 2
+2022/01/05 20:47:59 map[from:[center] operation:[add] to:[node-3]]
+node-3 2022/01/05 20:47:59.107072 node.go:52: do add
+node-3 2022/01/05 20:47:59.107072 node.go:582: f: 1 ; 2f: 2
+2022/01/05 20:47:59 map[from:[center] operation:[add] to:[node-4]]
+node-4 2022/01/05 20:47:59.107594 node.go:52: do add
+node-4 2022/01/05 20:47:59.107594 node.go:582: f: 0 ; 2f: 0
+2022/01/05 20:47:59 map[from:[center] operation:[setF] to:[node-4]]
+node-4 2022/01/05 20:47:59.107594 node.go:52: do setF
+node-4 2022/01/05 20:47:59.107594 node.go:582: f: 1 ; 2f: 2
+2022/01/05 20:47:59 map[from:[center] operation:[client] to:[node-1]]
+node-1 2022/01/05 20:47:59.107594 node.go:52: do client
+2022/01/05 20:47:59 client started! 1641386879107594 1641386879107594
+node-1 2022/01/05 20:47:59.107594 node.go:111: Start request as Client, time: 1641386879107594
+2022/01/05 20:47:59 map[from:[node-1] operation:[req] to:[node-1]]
+node-1 2022/01/05 20:47:59.108105 node.go:52: do req
+2022/01/05 20:47:59 &{Timestamp:1641386879 ClientID:node-1 Operation:Test SequenceID:0}
+2022/01/05 20:47:59 [STAGE-DONE] Create the replica status
+2022/01/05 20:47:59 [STAGE-BEGIN] Consensus Process (ViewID:10000000000)
+2022/01/05 20:47:59 [STAGE-DONE] Pre-prepare
+2022/01/05 20:47:59 map[from:[node-1] operation:[pre-prepare] to:[node-4]]
+node-4 2022/01/05 20:47:59.108105 node.go:52: do pre-prepare
+2022/01/05 20:47:59 map[from:[node-1] operation:[pre-prepare] to:[node-2]]
+node-2 2022/01/05 20:47:59.108615 node.go:52: do pre-prepare
+2022/01/05 20:47:59 map[from:[node-1] operation:[pre-prepare] to:[node-3]]
+node-3 2022/01/05 20:47:59.108615 node.go:52: do pre-prepare

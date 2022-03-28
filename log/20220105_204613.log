@@ -1,0 +1,12 @@
+node-6 2022/01/05 20:46:13.498216 node.go:52: do add
+node-6 2022/01/05 20:46:13.498216 node.go:577: f: 0 ; 2f: 0
+node-6 2022/01/05 20:46:13.500202 node.go:52: do setF
+node-6 2022/01/05 20:46:13.500202 node.go:577: f: 2 ; 2f: 4
+node-6 2022/01/05 20:46:13.503188 node.go:52: do pre-prepare
+node-6 2022/01/05 20:46:13.507175 node.go:52: do prepare
+node-6 2022/01/05 20:46:13.507175 node.go:52: do prepare
+node-6 2022/01/05 20:46:13.508170 node.go:52: do prepare
+node-6 2022/01/05 20:46:13.508170 node.go:52: do prepare
+node-6 2022/01/05 20:46:13.512162 node.go:52: do commit
+node-6 2022/01/05 20:46:13.513158 node.go:52: do commit
+node-6 2022/01/05 20:46:13.514155 node.go:52: do commit

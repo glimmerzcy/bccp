@@ -1,0 +1,1326 @@
+2022/01/05 23:14:17 map[id:[node-1] operation:[new]]
+2022/01/05 23:14:17 map[id:[node-1] msg:[localhost:1000] operation:[add]]
+2022/01/05 23:14:17 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 23:14:17.279219 node.go:52: do add
+node-1 2022/01/05 23:14:17.279219 node.go:582: f: 0 ; 2f: 0
+2022/01/05 23:14:17 map[from:[center] operation:[setF] to:[node-1]]
+node-1 2022/01/05 23:14:17.279728 node.go:52: do setF
+node-1 2022/01/05 23:14:17.279728 node.go:582: f: 0 ; 2f: 0
+2022/01/05 23:14:17 map[id:[node-2] operation:[new]]
+2022/01/05 23:14:17 map[id:[node-2] msg:[localhost:1000] operation:[add]]
+2022/01/05 23:14:17 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 23:14:17.279728 node.go:52: do add
+node-1 2022/01/05 23:14:17.280757 node.go:582: f: 1 ; 2f: 1
+2022/01/05 23:14:17 map[from:[center] operation:[add] to:[node-2]]
+node-2 2022/01/05 23:14:17.280757 node.go:52: do add
+node-2 2022/01/05 23:14:17.280757 node.go:582: f: 0 ; 2f: 0
+2022/01/05 23:14:17 map[from:[center] operation:[setF] to:[node-2]]
+node-2 2022/01/05 23:14:17.280757 node.go:52: do setF
+node-2 2022/01/05 23:14:17.280757 node.go:582: f: 1 ; 2f: 1
+2022/01/05 23:14:17 map[id:[node-3] operation:[new]]
+2022/01/05 23:14:17 map[id:[node-3] msg:[localhost:1000] operation:[add]]
+2022/01/05 23:14:17 map[from:[center] operation:[add] to:[node-3]]
+node-3 2022/01/05 23:14:17.280757 node.go:52: do add
+node-3 2022/01/05 23:14:17.280757 node.go:582: f: 0 ; 2f: 0
+2022/01/05 23:14:17 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 23:14:17.280757 node.go:52: do add
+node-1 2022/01/05 23:14:17.280757 node.go:582: f: 1 ; 2f: 2
+2022/01/05 23:14:17 map[from:[center] operation:[add] to:[node-2]]
+node-2 2022/01/05 23:14:17.281292 node.go:52: do add
+node-2 2022/01/05 23:14:17.281292 node.go:582: f: 1 ; 2f: 2
+2022/01/05 23:14:17 map[from:[center] operation:[setF] to:[node-3]]
+node-3 2022/01/05 23:14:17.281292 node.go:52: do setF
+node-3 2022/01/05 23:14:17.281292 node.go:582: f: 1 ; 2f: 2
+2022/01/05 23:14:17 map[id:[node-4] operation:[new]]
+2022/01/05 23:14:17 map[id:[node-4] msg:[localhost:1000] operation:[add]]
+2022/01/05 23:14:17 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 23:14:17.281292 node.go:52: do add
+node-1 2022/01/05 23:14:17.281292 node.go:582: f: 1 ; 2f: 2
+2022/01/05 23:14:17 map[from:[center] operation:[add] to:[node-2]]
+node-2 2022/01/05 23:14:17.281292 node.go:52: do add
+node-2 2022/01/05 23:14:17.281292 node.go:582: f: 1 ; 2f: 2
+2022/01/05 23:14:17 map[from:[center] operation:[add] to:[node-3]]
+node-3 2022/01/05 23:14:17.281292 node.go:52: do add
+node-3 2022/01/05 23:14:17.281292 node.go:582: f: 1 ; 2f: 2
+2022/01/05 23:14:17 map[from:[center] operation:[add] to:[node-4]]
+node-4 2022/01/05 23:14:17.281292 node.go:52: do add
+node-4 2022/01/05 23:14:17.281292 node.go:582: f: 0 ; 2f: 0
+2022/01/05 23:14:17 map[from:[center] operation:[setF] to:[node-4]]
+node-4 2022/01/05 23:14:17.281803 node.go:52: do setF
+node-4 2022/01/05 23:14:17.281803 node.go:582: f: 1 ; 2f: 2
+2022/01/05 23:14:17 map[from:[center] operation:[client] to:[node-1]]
+node-1 2022/01/05 23:14:17.281803 node.go:52: do client
+2022/01/05 23:14:17 client started! 1641395657281803 1641395657281803
+node-1 2022/01/05 23:14:17.281803 node.go:111: Start request as Client, time: 1641395657281803
+2022/01/05 23:14:17 map[from:[node-1] operation:[req] to:[node-1]]
+node-1 2022/01/05 23:14:17.282327 node.go:52: do req
+2022/01/05 23:14:17 &{Timestamp:1641395657 ClientID:node-1 Operation:Test SequenceID:0}
+2022/01/05 23:14:17 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:17 [STAGE-BEGIN] Consensus Process (ViewID:10000000000)
+2022/01/05 23:14:17 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:17 map[from:[node-1] operation:[pre-prepare] to:[node-2]]
+node-2 2022/01/05 23:14:17.282327 node.go:52: do pre-prepare
+2022/01/05 23:14:17 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac RequestMsg:0xc00017a390}
+2022/01/05 23:14:17 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:17 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:17 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:17 map[from:[node-1] operation:[pre-prepare] to:[node-3]]
+node-3 2022/01/05 23:14:17.282327 node.go:52: do pre-prepare
+2022/01/05 23:14:17 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac RequestMsg:0xc000408120}
+2022/01/05 23:14:17 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:17 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:17 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:17 map[from:[node-1] operation:[pre-prepare] to:[node-4]]
+node-4 2022/01/05 23:14:17.282834 node.go:52: do pre-prepare
+2022/01/05 23:14:17 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac RequestMsg:0xc000302390}
+2022/01/05 23:14:17 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:17 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:17 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:17 map[from:[node-2] operation:[prepare] to:[node-3]]
+node-3 2022/01/05 23:14:17.282834 node.go:52: do prepare
+2022/01/05 23:14:17 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac NodeID:node-2 MsgType:0}
+2022/01/05 23:14:17 [Prepare-Vote]: 1
+2022/01/05 23:14:17 map[from:[node-4] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:17.282834 node.go:52: do prepare
+2022/01/05 23:14:17 map[from:[node-2] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:17.282834 node.go:52: do prepare
+2022/01/05 23:14:17 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac NodeID:node-4 MsgType:0}
+2022/01/05 23:14:17 [Prepare-Vote]: 1
+2022/01/05 23:14:17 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac NodeID:node-2 MsgType:0}
+2022/01/05 23:14:17 [Prepare-Vote]: 1
+2022/01/05 23:14:17 map[from:[node-4] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:17.282834 node.go:52: do prepare
+2022/01/05 23:14:17 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac NodeID:node-4 MsgType:0}
+2022/01/05 23:14:17 [Prepare-Vote]: 1
+2022/01/05 23:14:17 map[from:[node-3] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:17.282834 node.go:52: do prepare
+2022/01/05 23:14:17 map[from:[node-3] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:17.282834 node.go:52: do prepare
+2022/01/05 23:14:17 map[from:[node-2] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:17.282834 node.go:52: do prepare
+2022/01/05 23:14:17 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac NodeID:node-3 MsgType:0}
+2022/01/05 23:14:17 [Prepare-Vote]: 2
+2022/01/05 23:14:17 [STAGE-DONE] Prepare
+2022/01/05 23:14:17 [STAGE-BEGIN] Commit
+2022/01/05 23:14:17 map[from:[node-3] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:17.282834 node.go:52: do prepare
+2022/01/05 23:14:17 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac NodeID:node-3 MsgType:0}
+2022/01/05 23:14:17 [Prepare-Vote]: 2
+2022/01/05 23:14:17 [STAGE-DONE] Prepare
+2022/01/05 23:14:17 [STAGE-BEGIN] Commit
+2022/01/05 23:14:17 map[from:[node-4] operation:[prepare] to:[node-3]]
+2022/01/05 23:14:17 map[from:[node-1] operation:[commit] to:[node-4]]
+node-3 2022/01/05 23:14:17.283383 node.go:52: do prepare
+node-4 2022/01/05 23:14:17.283383 node.go:52: do commit
+2022/01/05 23:14:17 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac NodeID:node-3 MsgType:0}
+2022/01/05 23:14:17 [Prepare-Vote]: 2
+2022/01/05 23:14:17 map[from:[node-2] operation:[commit] to:[node-4]]
+2022/01/05 23:14:17 [STAGE-DONE] Prepare
+node-4 2022/01/05 23:14:17.283383 node.go:52: do commit
+2022/01/05 23:14:17 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac NodeID:node-4 MsgType:0}
+2022/01/05 23:14:17 [Prepare-Vote]: 2
+2022/01/05 23:14:17 [STAGE-DONE] Prepare
+2022/01/05 23:14:17 map[from:[node-2] operation:[commit] to:[node-1]]
+2022/01/05 23:14:17 [STAGE-BEGIN] Commit
+node-1 2022/01/05 23:14:17.283383 node.go:52: do commit
+2022/01/05 23:14:17 map[from:[node-1] operation:[commit] to:[node-2]]
+2022/01/05 23:14:17 [STAGE-BEGIN] Commit
+2022/01/05 23:14:17 map[from:[node-1] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:17.283383 node.go:52: do commit
+2022/01/05 23:14:17 [Commit-Vote]: 1
+2022/01/05 23:14:17 [Commit-Vote]: 1
+2022/01/05 23:14:17 map[from:[node-3] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:17.283383 node.go:52: do commit
+node-2 2022/01/05 23:14:17.283906 node.go:52: do commit
+2022/01/05 23:14:17 [Commit-Vote]: 1
+2022/01/05 23:14:17 [Commit-Vote]: 2
+2022/01/05 23:14:17 [STAGE-DONE] Commit
+node-4 2022/01/05 23:14:17.283906 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-4 2022/01/05 23:14:17.283906 node.go:136: 
+node-4 2022/01/05 23:14:17.283906 node.go:140: Reply Finished!
+2022/01/05 23:14:17 [STAGE-DONE] Reply
+2022/01/05 23:14:17 [Commit-Vote]: 1
+2022/01/05 23:14:17 map[from:[node-3] operation:[commit] to:[node-2]]
+node-2 2022/01/05 23:14:17.284485 node.go:52: do commit
+2022/01/05 23:14:17 map[from:[node-2] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:17.284485 node.go:52: do commit
+2022/01/05 23:14:17 map[from:[node-4] operation:[commit] to:[node-1]]
+2022/01/05 23:14:17 [Commit-Vote]: 2
+node-1 2022/01/05 23:14:17.284485 node.go:52: do commit
+2022/01/05 23:14:17 [Commit-Vote]: 2
+2022/01/05 23:14:17 [STAGE-DONE] Commit
+2022/01/05 23:14:17 [STAGE-DONE] Commit
+node-2 2022/01/05 23:14:17.284485 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-3 2022/01/05 23:14:17.284485 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-2 2022/01/05 23:14:17.284485 node.go:136: 
+node-3 2022/01/05 23:14:17.284485 node.go:136: 
+node-2 2022/01/05 23:14:17.284485 node.go:140: Reply Finished!
+2022/01/05 23:14:17 map[from:[node-3] operation:[commit] to:[node-1]]
+node-3 2022/01/05 23:14:17.284485 node.go:140: Reply Finished!
+2022/01/05 23:14:17 [STAGE-DONE] Reply
+node-1 2022/01/05 23:14:17.284485 node.go:52: do commit
+2022/01/05 23:14:17 [Commit-Vote]: 2
+2022/01/05 23:14:17 [STAGE-DONE] Commit
+2022/01/05 23:14:17 [STAGE-DONE] Reply
+node-1 2022/01/05 23:14:17.284485 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+2022/01/05 23:14:17 map[from:[node-4] operation:[commit] to:[node-3]]
+node-1 2022/01/05 23:14:17.284485 node.go:136: 
+node-3 2022/01/05 23:14:17.284485 node.go:52: do commit
+node-1 2022/01/05 23:14:17.284485 node.go:140: Reply Finished!
+2022/01/05 23:14:17 [STAGE-DONE] Reply
+2022/01/05 23:14:17 map[from:[node-4] operation:[reply] to:[node-1]]
+node-1 2022/01/05 23:14:17.284485 node.go:52: do reply
+2022/01/05 23:14:17 map[from:[node-3] operation:[reply] to:[node-1]]
+node-1 2022/01/05 23:14:17.284485 node.go:52: do reply
+2022/01/05 23:14:17 map[from:[node-4] operation:[commit] to:[node-2]]
+node-1 2022/01/05 23:14:17.284485 node.go:123: Result: Executed by node-4
+node-2 2022/01/05 23:14:17.284485 node.go:52: do commit
+node-1 2022/01/05 23:14:17.284485 node.go:123: Result: Executed by node-3
+2022/01/05 23:14:17 client ended! 1641395657281803 1641395657284485
+2022/01/05 23:14:17 map[from:[node-2] operation:[reply] to:[node-1]]
+node-1 2022/01/05 23:14:17.284485 node.go:52: do reply
+2022/01/05 23:14:17 map[from:[node-1] operation:[reply] to:[node-1]]
+node-1 2022/01/05 23:14:17.284485 node.go:123: Result: Executed by node-2
+node-1 2022/01/05 23:14:17.284485 node.go:52: do reply
+node-1 2022/01/05 23:14:17.284485 node.go:116: Request Finished! Delay: 2682
+node-1 2022/01/05 23:14:17.284485 node.go:117: 1641395657281803 1641395657284485
+node-1 2022/01/05 23:14:17.284485 node.go:123: Result: Executed by node-1
+2022/01/05 23:14:18 map[from:[center] operation:[client] to:[node-2]]
+node-2 2022/01/05 23:14:18.286433 node.go:52: do client
+2022/01/05 23:14:18 client started! 1641395658286433 1641395658286433
+node-2 2022/01/05 23:14:18.286433 node.go:111: Start request as Client, time: 1641395658286433
+2022/01/05 23:14:18 map[from:[node-2] operation:[req] to:[node-1]]
+node-1 2022/01/05 23:14:18.286433 node.go:52: do req
+2022/01/05 23:14:18 &{Timestamp:1641395658 ClientID:node-2 Operation:Test SequenceID:0}
+2022/01/05 23:14:18 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:18 [STAGE-BEGIN] Consensus Process (ViewID:10000000000)
+2022/01/05 23:14:18 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:18 map[from:[node-1] operation:[pre-prepare] to:[node-4]]
+node-4 2022/01/05 23:14:18.287321 node.go:52: do pre-prepare
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 RequestMsg:0xc000388510}
+2022/01/05 23:14:18 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:18 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:18 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:18 map[from:[node-1] operation:[pre-prepare] to:[node-2]]
+node-2 2022/01/05 23:14:18.287321 node.go:52: do pre-prepare
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 RequestMsg:0xc000388900}
+2022/01/05 23:14:18 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:18 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:18 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:18 map[from:[node-1] operation:[pre-prepare] to:[node-3]]
+node-3 2022/01/05 23:14:18.287321 node.go:52: do pre-prepare
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 RequestMsg:0xc000602630}
+2022/01/05 23:14:18 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:18 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:18 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:18 map[from:[node-4] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:18.288707 node.go:52: do prepare
+2022/01/05 23:14:18 map[from:[node-4] operation:[prepare] to:[node-3]]
+node-3 2022/01/05 23:14:18.288707 node.go:52: do prepare
+2022/01/05 23:14:18 map[from:[node-2] operation:[prepare] to:[node-3]]
+node-3 2022/01/05 23:14:18.288707 node.go:52: do prepare
+2022/01/05 23:14:18 map[from:[node-4] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:18.288707 node.go:52: do prepare
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327400 Digest:8952a45b10151429f92da337ea7a5f2275339cc7bc4c74aff5fb7f78a585eeac NodeID:node-2 MsgType:0}
+2022/01/05 23:14:18 map[from:[node-3] operation:[prepare] to:[node-1]]
+2022/01/05 23:14:18 map[from:[node-2] operation:[prepare] to:[node-4]]
+node-1 2022/01/05 23:14:18.288707 node.go:52: do prepare
+node-4 2022/01/05 23:14:18.288707 node.go:52: do prepare
+2022/01/05 23:14:18 [Prepare-Vote]: 1
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 NodeID:node-4 MsgType:0}
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 NodeID:node-4 MsgType:0}
+2022/01/05 23:14:18 [Prepare-Vote]: 1
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 NodeID:node-4 MsgType:0}
+2022/01/05 23:14:18 [Prepare-Vote]: 1
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 NodeID:node-2 MsgType:0}
+2022/01/05 23:14:18 [Prepare-Vote]: 1
+2022/01/05 23:14:18 map[from:[node-2] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:18.288707 node.go:52: do prepare
+2022/01/05 23:14:18 [Prepare-Vote]: 2
+2022/01/05 23:14:18 [STAGE-DONE] Prepare
+2022/01/05 23:14:18 [STAGE-BEGIN] Commit
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 NodeID:node-2 MsgType:0}
+2022/01/05 23:14:18 map[from:[node-3] operation:[prepare] to:[node-4]]
+2022/01/05 23:14:18 [Prepare-Vote]: 2
+node-4 2022/01/05 23:14:18.288707 node.go:52: do prepare
+2022/01/05 23:14:18 [STAGE-DONE] Prepare
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 NodeID:node-3 MsgType:0}
+2022/01/05 23:14:18 map[from:[node-1] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:18.288707 node.go:52: do commit
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 NodeID:node-3 MsgType:0}
+2022/01/05 23:14:18 map[from:[node-1] operation:[commit] to:[node-4]]
+2022/01/05 23:14:18 [Prepare-Vote]: 2
+node-4 2022/01/05 23:14:18.288707 node.go:52: do commit
+2022/01/05 23:14:18 map[from:[node-3] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:18.288707 node.go:52: do prepare
+2022/01/05 23:14:18 map[from:[node-1] operation:[commit] to:[node-2]]
+node-2 2022/01/05 23:14:18.288707 node.go:52: do commit
+2022/01/05 23:14:18 [Prepare-Vote]: 3
+2022/01/05 23:14:18 [STAGE-DONE] Prepare
+2022/01/05 23:14:18 [STAGE-BEGIN] Commit
+2022/01/05 23:14:18 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 NodeID:node-3 MsgType:0}
+2022/01/05 23:14:18 [Prepare-Vote]: 2
+2022/01/05 23:14:18 [STAGE-DONE] Prepare
+2022/01/05 23:14:18 [STAGE-BEGIN] Commit
+2022/01/05 23:14:18 [Commit-Vote]: 1
+2022/01/05 23:14:18 [Commit-Vote]: 2
+2022/01/05 23:14:18 [STAGE-DONE] Commit
+2022/01/05 23:14:18 [STAGE-BEGIN] Commit
+node-3 2022/01/05 23:14:18.288707 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+2022/01/05 23:14:18 [Commit-Vote]: 1
+node-3 2022/01/05 23:14:18.288707 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-3 2022/01/05 23:14:18.288707 node.go:136: 
+2022/01/05 23:14:18 map[from:[node-3] operation:[commit] to:[node-1]]
+node-3 2022/01/05 23:14:18.288707 node.go:140: Reply Finished!
+node-1 2022/01/05 23:14:18.288707 node.go:52: do commit
+2022/01/05 23:14:18 [STAGE-DONE] Reply
+2022/01/05 23:14:18 map[from:[node-3] operation:[commit] to:[node-2]]
+2022/01/05 23:14:18 map[from:[node-4] operation:[commit] to:[node-2]]
+node-2 2022/01/05 23:14:18.288707 node.go:52: do commit
+node-2 2022/01/05 23:14:18.288707 node.go:52: do commit
+2022/01/05 23:14:18 [Commit-Vote]: 1
+2022/01/05 23:14:18 [Commit-Vote]: 1
+2022/01/05 23:14:18 map[from:[node-4] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:18.288707 node.go:52: do commit
+2022/01/05 23:14:18 map[from:[node-4] operation:[commit] to:[node-1]]
+node-1 2022/01/05 23:14:18.288707 node.go:52: do commit
+2022/01/05 23:14:18 [Commit-Vote]: 1
+2022/01/05 23:14:18 [Commit-Vote]: 2
+2022/01/05 23:14:18 [STAGE-DONE] Commit
+node-2 2022/01/05 23:14:18.288707 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-2 2022/01/05 23:14:18.288707 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-2 2022/01/05 23:14:18.288707 node.go:136: 
+node-2 2022/01/05 23:14:18.288707 node.go:140: Reply Finished!
+2022/01/05 23:14:18 [STAGE-DONE] Reply
+2022/01/05 23:14:18 map[from:[node-2] operation:[commit] to:[node-4]]
+2022/01/05 23:14:18 map[from:[node-2] operation:[commit] to:[node-1]]
+2022/01/05 23:14:18 map[from:[node-2] operation:[commit] to:[node-3]]
+node-1 2022/01/05 23:14:18.289774 node.go:52: do commit
+2022/01/05 23:14:18 [Commit-Vote]: 2
+node-3 2022/01/05 23:14:18.289774 node.go:52: do commit
+node-4 2022/01/05 23:14:18.289774 node.go:52: do commit
+2022/01/05 23:14:18 [STAGE-DONE] Commit
+node-1 2022/01/05 23:14:18.290056 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-1 2022/01/05 23:14:18.290056 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-1 2022/01/05 23:14:18.290056 node.go:136: 
+2022/01/05 23:14:18 map[from:[node-3] operation:[reply] to:[node-2]]
+node-1 2022/01/05 23:14:18.290056 node.go:140: Reply Finished!
+node-2 2022/01/05 23:14:18.290056 node.go:52: do reply
+2022/01/05 23:14:18 map[from:[node-2] operation:[reply] to:[node-2]]
+node-2 2022/01/05 23:14:18.290056 node.go:52: do reply
+2022/01/05 23:14:18 map[from:[node-3] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:18.290056 node.go:52: do commit
+node-2 2022/01/05 23:14:18.290056 node.go:123: Result: Executed by node-3
+node-2 2022/01/05 23:14:18.290056 node.go:123: Result: Executed by node-2
+2022/01/05 23:14:18 [Commit-Vote]: 2
+2022/01/05 23:14:18 [STAGE-DONE] Commit
+node-4 2022/01/05 23:14:18.290056 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-4 2022/01/05 23:14:18.290056 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-4 2022/01/05 23:14:18.290056 node.go:136: 
+2022/01/05 23:14:18 [STAGE-DONE] Reply
+node-4 2022/01/05 23:14:18.290056 node.go:140: Reply Finished!
+2022/01/05 23:14:18 client ended! 1641395658286433 1641395658290056
+2022/01/05 23:14:18 map[from:[node-1] operation:[reply] to:[node-2]]
+2022/01/05 23:14:18 [STAGE-DONE] Reply
+node-2 2022/01/05 23:14:18.290056 node.go:52: do reply
+node-2 2022/01/05 23:14:18.290056 node.go:116: Request Finished! Delay: 3623
+node-2 2022/01/05 23:14:18.290056 node.go:123: Result: Executed by node-1
+node-2 2022/01/05 23:14:18.290056 node.go:117: 1641395658286433 1641395658290056
+2022/01/05 23:14:18 map[from:[node-4] operation:[reply] to:[node-2]]
+node-2 2022/01/05 23:14:18.290056 node.go:52: do reply
+node-2 2022/01/05 23:14:18.290056 node.go:123: Result: Executed by node-4
+2022/01/05 23:14:19 4 3152 [2682 3623]
+2022/01/05 23:14:19 map[id:[node-5] operation:[new]]
+2022/01/05 23:14:19 map[id:[node-5] msg:[localhost:1000] operation:[add]]
+2022/01/05 23:14:19 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 23:14:19.299358 node.go:52: do add
+node-1 2022/01/05 23:14:19.299358 node.go:582: f: 2 ; 2f: 3
+2022/01/05 23:14:19 map[from:[center] operation:[add] to:[node-2]]
+node-2 2022/01/05 23:14:19.299358 node.go:52: do add
+node-2 2022/01/05 23:14:19.299358 node.go:582: f: 2 ; 2f: 3
+2022/01/05 23:14:19 map[from:[center] operation:[add] to:[node-3]]
+node-3 2022/01/05 23:14:19.299358 node.go:52: do add
+node-3 2022/01/05 23:14:19.299358 node.go:582: f: 2 ; 2f: 3
+2022/01/05 23:14:19 map[from:[center] operation:[add] to:[node-4]]
+node-4 2022/01/05 23:14:19.299358 node.go:52: do add
+node-4 2022/01/05 23:14:19.299358 node.go:582: f: 2 ; 2f: 3
+2022/01/05 23:14:19 map[from:[center] operation:[add] to:[node-5]]
+2022/01/05 23:14:19 map[from:[center] operation:[setF] to:[node-5]]
+2022/01/05 23:14:19 map[from:[center] operation:[client] to:[node-1]]
+node-1 2022/01/05 23:14:19.300367 node.go:52: do client
+2022/01/05 23:14:19 client started! 1641395659300367 1641395659300367
+node-1 2022/01/05 23:14:19.300367 node.go:111: Start request as Client, time: 1641395659300367
+2022/01/05 23:14:19 map[from:[node-1] operation:[req] to:[node-1]]
+node-1 2022/01/05 23:14:19.300367 node.go:52: do req
+2022/01/05 23:14:19 &{Timestamp:1641395659 ClientID:node-1 Operation:Test SequenceID:0}
+2022/01/05 23:14:19 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:19 [STAGE-BEGIN] Consensus Process (ViewID:10000000000)
+2022/01/05 23:14:19 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:19 map[from:[node-1] operation:[pre-prepare] to:[node-4]]
+node-4 2022/01/05 23:14:19.300367 node.go:52: do pre-prepare
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be RequestMsg:0xc00089ac90}
+2022/01/05 23:14:19 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:19 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:19 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:19 map[from:[node-1] operation:[pre-prepare] to:[node-5]]
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be RequestMsg:0xc00089af30}
+2022/01/05 23:14:19 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:19 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:19 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:19 map[from:[node-1] operation:[pre-prepare] to:[node-2]]
+node-2 2022/01/05 23:14:19.300367 node.go:52: do pre-prepare
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be RequestMsg:0xc0004094a0}
+2022/01/05 23:14:19 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:19 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:19 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:19 map[from:[node-1] operation:[pre-prepare] to:[node-3]]
+node-3 2022/01/05 23:14:19.300367 node.go:52: do pre-prepare
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be RequestMsg:0xc000582cf0}
+2022/01/05 23:14:19 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:19 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:19 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:19 map[from:[node-4] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:19.301354 node.go:52: do prepare
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-4 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 1
+2022/01/05 23:14:19 map[from:[node-4] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:19.301354 node.go:52: do prepare
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327401 Digest:952335532801a463c8f1ec855fe9cfda110807d688403eb8e44afa88af1cf258 NodeID:node-2 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 1
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-4 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 2
+2022/01/05 23:14:19 map[from:[node-4] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:19 map[from:[node-5] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:19.301354 node.go:52: do prepare
+2022/01/05 23:14:19 map[from:[node-4] operation:[prepare] to:[node-3]]
+node-3 2022/01/05 23:14:19.301354 node.go:52: do prepare
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-4 MsgType:0}
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-4 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 1
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-5 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 2
+2022/01/05 23:14:19 [Prepare-Vote]: 1
+2022/01/05 23:14:19 map[from:[node-5] operation:[prepare] to:[node-1]]
+2022/01/05 23:14:19 map[from:[node-2] operation:[prepare] to:[node-1]]
+2022/01/05 23:14:19 map[from:[node-5] operation:[prepare] to:[node-3]]
+node-3 2022/01/05 23:14:19.301354 node.go:52: do prepare
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-5 MsgType:0}
+node-1 2022/01/05 23:14:19.301354 node.go:52: do prepare
+node-1 2022/01/05 23:14:19.301354 node.go:52: do prepare
+2022/01/05 23:14:19 [Prepare-Vote]: 2
+2022/01/05 23:14:19 map[from:[node-3] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:19.302351 node.go:52: do prepare
+2022/01/05 23:14:19 map[from:[node-2] operation:[prepare] to:[node-3]]
+node-3 2022/01/05 23:14:19.302351 node.go:52: do prepare
+2022/01/05 23:14:19 map[from:[node-2] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-2 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 3
+2022/01/05 23:14:19 [STAGE-DONE] Prepare
+2022/01/05 23:14:19 [STAGE-BEGIN] Commit
+2022/01/05 23:14:19 map[from:[node-5] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:19.302351 node.go:52: do prepare
+2022/01/05 23:14:19 map[from:[node-3] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-5 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 3
+2022/01/05 23:14:19 [STAGE-DONE] Prepare
+2022/01/05 23:14:19 map[from:[node-3] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:19.302351 node.go:52: do prepare
+2022/01/05 23:14:19 map[from:[node-3] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:19.302351 node.go:52: do commit
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-3 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 3
+2022/01/05 23:14:19 [STAGE-DONE] Prepare
+2022/01/05 23:14:19 [STAGE-BEGIN] Commit
+2022/01/05 23:14:19 map[from:[node-1] operation:[commit] to:[node-3]]
+2022/01/05 23:14:19 map[from:[node-1] operation:[commit] to:[node-5]]
+node-3 2022/01/05 23:14:19.302351 node.go:52: do commit
+2022/01/05 23:14:19 map[from:[node-1] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:19.302351 node.go:52: do commit
+2022/01/05 23:14:19 map[from:[node-1] operation:[commit] to:[node-2]]
+node-2 2022/01/05 23:14:19.302351 node.go:52: do commit
+2022/01/05 23:14:19 map[from:[node-3] operation:[prepare] to:[node-1]]
+2022/01/05 23:14:19 [Commit-Vote]: 1
+node-1 2022/01/05 23:14:19.302351 node.go:52: do prepare
+2022/01/05 23:14:19 [Commit-Vote]: 2
+2022/01/05 23:14:19 map[from:[node-3] operation:[commit] to:[node-5]]
+2022/01/05 23:14:19 [Commit-Vote]: 1
+2022/01/05 23:14:19 map[from:[node-2] operation:[prepare] to:[node-4]]
+2022/01/05 23:14:19 map[from:[node-2] operation:[commit] to:[node-3]]
+node-4 2022/01/05 23:14:19.302351 node.go:52: do prepare
+2022/01/05 23:14:19 map[from:[node-3] operation:[commit] to:[node-2]]
+node-3 2022/01/05 23:14:19.302351 node.go:52: do commit
+node-2 2022/01/05 23:14:19.302351 node.go:52: do commit
+2022/01/05 23:14:19 map[from:[node-3] operation:[commit] to:[node-1]]
+node-1 2022/01/05 23:14:19.302351 node.go:52: do commit
+2022/01/05 23:14:19 [STAGE-BEGIN] Commit
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-2 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 2
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-3 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 1
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-3 MsgType:0}
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-2 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 3
+2022/01/05 23:14:19 [Commit-Vote]: 2
+2022/01/05 23:14:19 [Commit-Vote]: 3
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-5 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 2
+2022/01/05 23:14:19 map[from:[node-2] operation:[commit] to:[node-5]]
+2022/01/05 23:14:19 map[from:[node-2] operation:[commit] to:[node-1]]
+2022/01/05 23:14:19 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-2 MsgType:0}
+2022/01/05 23:14:19 [Prepare-Vote]: 3
+2022/01/05 23:14:19 [STAGE-DONE] Prepare
+2022/01/05 23:14:19 [STAGE-BEGIN] Commit
+2022/01/05 23:14:19 map[from:[node-2] operation:[commit] to:[node-4]]
+2022/01/05 23:14:19 [Prepare-Vote]: 3
+2022/01/05 23:14:19 [STAGE-DONE] Prepare
+2022/01/05 23:14:19 [Commit-Vote]: 1
+2022/01/05 23:14:19 [STAGE-BEGIN] Commit
+2022/01/05 23:14:19 [Commit-Vote]: 2
+2022/01/05 23:14:19 [Commit-Vote]: 1
+2022/01/05 23:14:19 [Commit-Vote]: 2
+2022/01/05 23:14:19 [Commit-Vote]: 3
+2022/01/05 23:14:19 [STAGE-DONE] Commit
+node-4 2022/01/05 23:14:19.303348 node.go:52: do commit
+node-1 2022/01/05 23:14:19.303348 node.go:52: do commit
+2022/01/05 23:14:19 [Commit-Vote]: 1
+2022/01/05 23:14:19 [Commit-Vote]: 2
+2022/01/05 23:14:19 [Commit-Vote]: 3
+2022/01/05 23:14:19 [STAGE-DONE] Commit
+node-4 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-4 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-4 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-4 2022/01/05 23:14:19.303348 node.go:136: 
+node-4 2022/01/05 23:14:19.303348 node.go:140: Reply Finished!
+2022/01/05 23:14:19 [STAGE-DONE] Reply
+2022/01/05 23:14:19 [Commit-Vote]: 2
+2022/01/05 23:14:19 [STAGE-DONE] Commit
+node-3 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+2022/01/05 23:14:19 map[from:[node-4] operation:[commit] to:[node-5]]
+node-3 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-3 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+2022/01/05 23:14:19 map[from:[node-4] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:19.303348 node.go:136: 
+node-3 2022/01/05 23:14:19.303348 node.go:52: do commit
+node-3 2022/01/05 23:14:19.303348 node.go:140: Reply Finished!
+2022/01/05 23:14:19 map[from:[node-5] operation:[commit] to:[node-3]]
+2022/01/05 23:14:19 [STAGE-DONE] Reply
+node-3 2022/01/05 23:14:19.303348 node.go:52: do commit
+2022/01/05 23:14:19 map[from:[node-5] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:19.303348 node.go:52: do commit
+2022/01/05 23:14:19 map[from:[node-4] operation:[reply] to:[node-1]]
+node-1 2022/01/05 23:14:19.303348 node.go:52: do reply
+2022/01/05 23:14:19 map[from:[node-5] operation:[commit] to:[node-2]]
+node-1 2022/01/05 23:14:19.303348 node.go:123: Result: Executed by node-4
+node-2 2022/01/05 23:14:19.303348 node.go:52: do commit
+2022/01/05 23:14:19 [Commit-Vote]: 3
+2022/01/05 23:14:19 [STAGE-DONE] Commit
+node-2 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-2 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-2 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-2 2022/01/05 23:14:19.303348 node.go:136: 
+node-2 2022/01/05 23:14:19.303348 node.go:140: Reply Finished!
+2022/01/05 23:14:19 map[from:[node-5] operation:[commit] to:[node-1]]
+2022/01/05 23:14:19 [STAGE-DONE] Reply
+2022/01/05 23:14:19 map[from:[node-4] operation:[commit] to:[node-1]]
+node-1 2022/01/05 23:14:19.303348 node.go:52: do commit
+2022/01/05 23:14:19 map[from:[node-4] operation:[commit] to:[node-2]]
+node-1 2022/01/05 23:14:19.303348 node.go:52: do commit
+2022/01/05 23:14:19 map[from:[node-3] operation:[reply] to:[node-1]]
+node-2 2022/01/05 23:14:19.303348 node.go:52: do commit
+node-1 2022/01/05 23:14:19.303348 node.go:52: do reply
+2022/01/05 23:14:19 [Commit-Vote]: 3
+2022/01/05 23:14:19 [STAGE-DONE] Commit
+node-1 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-1 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-1 2022/01/05 23:14:19.303348 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-1 2022/01/05 23:14:19.303348 node.go:136: 
+node-1 2022/01/05 23:14:19.303348 node.go:123: Result: Executed by node-3
+2022/01/05 23:14:19 map[from:[node-2] operation:[reply] to:[node-1]]
+node-1 2022/01/05 23:14:19.303348 node.go:140: Reply Finished!
+2022/01/05 23:14:19 [STAGE-DONE] Reply
+node-1 2022/01/05 23:14:19.303348 node.go:52: do reply
+node-1 2022/01/05 23:14:19.303348 node.go:123: Result: Executed by node-2
+2022/01/05 23:14:19 client ended! 1641395659300367 1641395659303348
+node-1 2022/01/05 23:14:19.303348 node.go:116: Request Finished! Delay: 2981
+node-1 2022/01/05 23:14:19.303348 node.go:117: 1641395659300367 1641395659303348
+2022/01/05 23:14:19 map[from:[node-1] operation:[reply] to:[node-1]]
+node-1 2022/01/05 23:14:19.303348 node.go:52: do reply
+node-1 2022/01/05 23:14:19.303348 node.go:123: Result: Executed by node-1
+2022/01/05 23:14:19 [STAGE-DONE] Reply
+2022/01/05 23:14:19 map[from:[node-5] operation:[reply] to:[node-1]]
+node-1 2022/01/05 23:14:19.304344 node.go:52: do reply
+node-1 2022/01/05 23:14:19.304344 node.go:123: Result: Executed by node-5
+2022/01/05 23:14:20 map[from:[center] operation:[client] to:[node-4]]
+node-4 2022/01/05 23:14:20.310706 node.go:52: do client
+2022/01/05 23:14:20 client started! 1641395660310706 1641395660310706
+node-4 2022/01/05 23:14:20.310706 node.go:111: Start request as Client, time: 1641395660310706
+2022/01/05 23:14:20 map[from:[node-4] operation:[req] to:[node-1]]
+node-1 2022/01/05 23:14:20.310706 node.go:52: do req
+2022/01/05 23:14:20 &{Timestamp:1641395660 ClientID:node-4 Operation:Test SequenceID:0}
+2022/01/05 23:14:20 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:20 [STAGE-BEGIN] Consensus Process (ViewID:10000000000)
+2022/01/05 23:14:20 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:20 map[from:[node-1] operation:[pre-prepare] to:[node-5]]
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b RequestMsg:0xc00017a300}
+2022/01/05 23:14:20 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:20 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:20 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:20 map[from:[node-1] operation:[pre-prepare] to:[node-3]]
+node-3 2022/01/05 23:14:20.311515 node.go:52: do pre-prepare
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b RequestMsg:0xc0001134d0}
+2022/01/05 23:14:20 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:20 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:20 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:20 map[from:[node-1] operation:[pre-prepare] to:[node-4]]
+node-4 2022/01/05 23:14:20.311515 node.go:52: do pre-prepare
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b RequestMsg:0xc00050cf00}
+2022/01/05 23:14:20 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:20 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:20 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:20 map[from:[node-1] operation:[pre-prepare] to:[node-2]]
+node-2 2022/01/05 23:14:20.311515 node.go:52: do pre-prepare
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b RequestMsg:0xc0001822d0}
+2022/01/05 23:14:20 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:20 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:20 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:20 map[from:[node-5] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:20.312511 node.go:52: do prepare
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327402 Digest:15103bc548ba614bc52dc2185393af52b508f6ffdf495b82e3d492a3dd9bd6be NodeID:node-3 MsgType:0}
+2022/01/05 23:14:20 [Prepare-Vote]: 1
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-5 MsgType:0}
+2022/01/05 23:14:20 [Prepare-Vote]: 2
+2022/01/05 23:14:20 map[from:[node-5] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:20.312511 node.go:52: do prepare
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-5 MsgType:0}
+2022/01/05 23:14:20 [Prepare-Vote]: 1
+2022/01/05 23:14:20 map[from:[node-3] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:20 map[from:[node-5] operation:[prepare] to:[node-3]]
+node-3 2022/01/05 23:14:20.312511 node.go:52: do prepare
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-3 MsgType:0}
+2022/01/05 23:14:20 map[from:[node-4] operation:[prepare] to:[node-2]]
+2022/01/05 23:14:20 map[from:[node-5] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:20.312511 node.go:52: do prepare
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-5 MsgType:0}
+2022/01/05 23:14:20 [Prepare-Vote]: 1
+2022/01/05 23:14:20 [Prepare-Vote]: 1
+2022/01/05 23:14:20 map[from:[node-3] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:20.312511 node.go:52: do prepare
+2022/01/05 23:14:20 map[from:[node-3] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:20.312511 node.go:52: do prepare
+node-2 2022/01/05 23:14:20.313506 node.go:52: do prepare
+2022/01/05 23:14:20 map[from:[node-2] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:20.313506 node.go:52: do prepare
+2022/01/05 23:14:20 map[from:[node-4] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:20.313506 node.go:52: do prepare
+2022/01/05 23:14:20 map[from:[node-2] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:20.313506 node.go:52: do prepare
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-4 MsgType:0}
+2022/01/05 23:14:20 map[from:[node-2] operation:[prepare] to:[node-3]]
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-3 MsgType:0}
+node-3 2022/01/05 23:14:20.313506 node.go:52: do prepare
+2022/01/05 23:14:20 [Prepare-Vote]: 2
+2022/01/05 23:14:20 map[from:[node-4] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:20 [Prepare-Vote]: 1
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-3 MsgType:0}
+2022/01/05 23:14:20 [Prepare-Vote]: 2
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-2 MsgType:0}
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-2 MsgType:0}
+2022/01/05 23:14:20 [Prepare-Vote]: 2
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-2 MsgType:0}
+2022/01/05 23:14:20 [Prepare-Vote]: 3
+2022/01/05 23:14:20 [STAGE-DONE] Prepare
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-5 MsgType:0}
+2022/01/05 23:14:20 [Prepare-Vote]: 2
+2022/01/05 23:14:20 [Prepare-Vote]: 3
+2022/01/05 23:14:20 [STAGE-DONE] Prepare
+2022/01/05 23:14:20 [STAGE-BEGIN] Commit
+2022/01/05 23:14:20 map[from:[node-4] operation:[prepare] to:[node-3]]
+node-3 2022/01/05 23:14:20.313506 node.go:52: do prepare
+2022/01/05 23:14:20 map[from:[node-3] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:20.313506 node.go:52: do prepare
+2022/01/05 23:14:20 [STAGE-BEGIN] Commit
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-4 MsgType:0}
+2022/01/05 23:14:20 [Prepare-Vote]: 3
+2022/01/05 23:14:20 [STAGE-DONE] Prepare
+2022/01/05 23:14:20 [STAGE-BEGIN] Commit
+2022/01/05 23:14:20 map[from:[node-1] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:20.313506 node.go:52: do commit
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-3 MsgType:0}
+2022/01/05 23:14:20 [Prepare-Vote]: 3
+2022/01/05 23:14:20 [STAGE-DONE] Prepare
+2022/01/05 23:14:20 map[from:[node-2] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-4 MsgType:0}
+2022/01/05 23:14:20 [Prepare-Vote]: 2
+2022/01/05 23:14:20 [STAGE-BEGIN] Commit
+2022/01/05 23:14:20 map[from:[node-4] operation:[commit] to:[node-5]]
+2022/01/05 23:14:20 map[from:[node-2] operation:[commit] to:[node-4]]
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-4 MsgType:0}
+node-4 2022/01/05 23:14:20.313506 node.go:52: do commit
+2022/01/05 23:14:20 [Prepare-Vote]: 4
+2022/01/05 23:14:20 map[from:[node-1] operation:[commit] to:[node-4]]
+2022/01/05 23:14:20 &{ViewID:10000000000 SequenceID:1641395657282327403 Digest:32ee46bf8f17d8a771237f1f444337582cecf44591dea3b9296d10d4a8ef7e3b NodeID:node-2 MsgType:0}
+2022/01/05 23:14:20 map[from:[node-4] operation:[commit] to:[node-1]]
+node-4 2022/01/05 23:14:20.314504 node.go:52: do commit
+2022/01/05 23:14:20 [Prepare-Vote]: 3
+node-1 2022/01/05 23:14:20.314504 node.go:52: do commit
+2022/01/05 23:14:20 [STAGE-DONE] Prepare
+2022/01/05 23:14:20 [STAGE-BEGIN] Commit
+2022/01/05 23:14:20 [Commit-Vote]: 1
+2022/01/05 23:14:20 map[from:[node-4] operation:[commit] to:[node-3]]
+2022/01/05 23:14:20 [Commit-Vote]: 1
+node-3 2022/01/05 23:14:20.314504 node.go:52: do commit
+2022/01/05 23:14:20 [Commit-Vote]: 2
+2022/01/05 23:14:20 map[from:[node-1] operation:[commit] to:[node-5]]
+2022/01/05 23:14:20 [Commit-Vote]: 2
+2022/01/05 23:14:20 [Commit-Vote]: 3
+2022/01/05 23:14:20 [STAGE-DONE] Commit
+node-3 2022/01/05 23:14:20.314504 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-3 2022/01/05 23:14:20.314504 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-3 2022/01/05 23:14:20.314504 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-3 2022/01/05 23:14:20.314504 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+node-3 2022/01/05 23:14:20.314504 node.go:136: 
+node-3 2022/01/05 23:14:20.314504 node.go:140: Reply Finished!
+2022/01/05 23:14:20 map[from:[node-2] operation:[commit] to:[node-1]]
+node-1 2022/01/05 23:14:20.314504 node.go:52: do commit
+2022/01/05 23:14:20 map[from:[node-4] operation:[commit] to:[node-2]]
+2022/01/05 23:14:20 map[from:[node-1] operation:[commit] to:[node-2]]
+2022/01/05 23:14:20 [STAGE-DONE] Reply
+2022/01/05 23:14:20 [Commit-Vote]: 1
+node-2 2022/01/05 23:14:20.314504 node.go:52: do commit
+2022/01/05 23:14:20 [Commit-Vote]: 1
+2022/01/05 23:14:20 [Commit-Vote]: 1
+2022/01/05 23:14:20 [Commit-Vote]: 2
+2022/01/05 23:14:20 map[from:[node-3] operation:[commit] to:[node-2]]
+node-2 2022/01/05 23:14:20.315501 node.go:52: do commit
+2022/01/05 23:14:20 map[from:[node-2] operation:[commit] to:[node-5]]
+2022/01/05 23:14:20 map[from:[node-3] operation:[commit] to:[node-5]]
+2022/01/05 23:14:20 [Commit-Vote]: 3
+2022/01/05 23:14:20 [STAGE-DONE] Commit
+2022/01/05 23:14:20 [STAGE-DONE] Reply
+2022/01/05 23:14:20 map[from:[node-2] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:20.315501 node.go:52: do commit
+2022/01/05 23:14:20 map[from:[node-5] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:20.315501 node.go:52: do commit
+2022/01/05 23:14:20 map[from:[node-5] operation:[commit] to:[node-2]]
+node-2 2022/01/05 23:14:20.315501 node.go:52: do commit
+2022/01/05 23:14:20 map[from:[node-5] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:20.315501 node.go:52: do commit
+2022/01/05 23:14:20 map[from:[node-3] operation:[commit] to:[node-1]]
+node-2 2022/01/05 23:14:20.315501 node.go:52: do commit
+node-1 2022/01/05 23:14:20.315501 node.go:52: do commit
+2022/01/05 23:14:20 map[from:[node-3] operation:[reply] to:[node-4]]
+node-4 2022/01/05 23:14:20.315501 node.go:52: do reply
+2022/01/05 23:14:20 [Commit-Vote]: 3
+2022/01/05 23:14:20 [STAGE-DONE] Commit
+node-4 2022/01/05 23:14:20.315501 node.go:123: Result: Executed by node-3
+2022/01/05 23:14:20 [Commit-Vote]: 2
+node-4 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+2022/01/05 23:14:20 map[from:[node-3] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+2022/01/05 23:14:20 map[from:[node-5] operation:[reply] to:[node-4]]
+node-4 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+2022/01/05 23:14:20 [Commit-Vote]: 3
+2022/01/05 23:14:20 [STAGE-DONE] Commit
+node-4 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+node-1 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-4 2022/01/05 23:14:20.315501 node.go:136: 
+node-1 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-4 2022/01/05 23:14:20.315501 node.go:140: Reply Finished!
+node-1 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+2022/01/05 23:14:20 [STAGE-DONE] Reply
+node-1 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+node-4 2022/01/05 23:14:20.315501 node.go:52: do reply
+node-1 2022/01/05 23:14:20.315501 node.go:136: 
+node-1 2022/01/05 23:14:20.315501 node.go:140: Reply Finished!
+2022/01/05 23:14:20 [STAGE-DONE] Reply
+2022/01/05 23:14:20 map[from:[node-5] operation:[commit] to:[node-1]]
+node-4 2022/01/05 23:14:20.315501 node.go:123: Result: Executed by node-5
+node-1 2022/01/05 23:14:20.315501 node.go:52: do commit
+node-4 2022/01/05 23:14:20.315501 node.go:52: do commit
+2022/01/05 23:14:20 [Commit-Vote]: 1
+2022/01/05 23:14:20 map[from:[node-1] operation:[reply] to:[node-4]]
+node-4 2022/01/05 23:14:20.315501 node.go:52: do reply
+node-4 2022/01/05 23:14:20.315501 node.go:123: Result: Executed by node-1
+2022/01/05 23:14:20 client ended! 1641395660310706 1641395660315501
+2022/01/05 23:14:20 map[from:[node-4] operation:[reply] to:[node-4]]
+node-4 2022/01/05 23:14:20.315501 node.go:52: do reply
+node-4 2022/01/05 23:14:20.315501 node.go:123: Result: Executed by node-4
+node-4 2022/01/05 23:14:20.315501 node.go:116: Request Finished! Delay: 4795
+node-4 2022/01/05 23:14:20.315501 node.go:117: 1641395660310706 1641395660315501
+2022/01/05 23:14:20 [Commit-Vote]: 1
+2022/01/05 23:14:20 [Commit-Vote]: 2
+2022/01/05 23:14:20 [Commit-Vote]: 3
+2022/01/05 23:14:20 [STAGE-DONE] Commit
+node-2 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-2 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-2 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-2 2022/01/05 23:14:20.315501 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+node-2 2022/01/05 23:14:20.315501 node.go:136: 
+node-2 2022/01/05 23:14:20.315501 node.go:140: Reply Finished!
+2022/01/05 23:14:20 [STAGE-DONE] Reply
+2022/01/05 23:14:20 map[from:[node-2] operation:[reply] to:[node-4]]
+node-4 2022/01/05 23:14:20.315501 node.go:52: do reply
+node-4 2022/01/05 23:14:20.315501 node.go:123: Result: Executed by node-2
+2022/01/05 23:14:21 5 3888 [2981 4795]
+2022/01/05 23:14:21 map[id:[node-6] operation:[new]]
+2022/01/05 23:14:21 map[id:[node-6] msg:[localhost:1000] operation:[add]]
+2022/01/05 23:14:21 map[from:[center] operation:[add] to:[node-4]]
+node-4 2022/01/05 23:14:21.319766 node.go:52: do add
+node-4 2022/01/05 23:14:21.319766 node.go:582: f: 2 ; 2f: 4
+2022/01/05 23:14:21 map[from:[center] operation:[add] to:[node-5]]
+2022/01/05 23:14:21 map[from:[center] operation:[add] to:[node-6]]
+2022/01/05 23:14:21 map[from:[center] operation:[add] to:[node-1]]
+node-1 2022/01/05 23:14:21.320838 node.go:52: do add
+node-1 2022/01/05 23:14:21.320838 node.go:582: f: 2 ; 2f: 4
+2022/01/05 23:14:21 map[from:[center] operation:[add] to:[node-2]]
+node-2 2022/01/05 23:14:21.320838 node.go:52: do add
+node-2 2022/01/05 23:14:21.320838 node.go:582: f: 2 ; 2f: 4
+2022/01/05 23:14:21 map[from:[center] operation:[add] to:[node-3]]
+node-3 2022/01/05 23:14:21.320838 node.go:52: do add
+node-3 2022/01/05 23:14:21.320838 node.go:582: f: 2 ; 2f: 4
+2022/01/05 23:14:21 map[from:[center] operation:[setF] to:[node-6]]
+2022/01/05 23:14:21 map[from:[center] operation:[client] to:[node-3]]
+node-3 2022/01/05 23:14:21.321383 node.go:52: do client
+2022/01/05 23:14:21 client started! 1641395661321383 1641395661321383
+node-3 2022/01/05 23:14:21.321383 node.go:111: Start request as Client, time: 1641395661321383
+2022/01/05 23:14:21 map[from:[node-3] operation:[req] to:[node-1]]
+node-1 2022/01/05 23:14:21.321383 node.go:52: do req
+2022/01/05 23:14:21 &{Timestamp:1641395661 ClientID:node-3 Operation:Test SequenceID:0}
+2022/01/05 23:14:21 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:21 [STAGE-BEGIN] Consensus Process (ViewID:10000000000)
+2022/01/05 23:14:21 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:21 map[from:[node-1] operation:[pre-prepare] to:[node-6]]
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 RequestMsg:0xc0002044b0}
+2022/01/05 23:14:21 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:21 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:21 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:21 map[from:[node-1] operation:[pre-prepare] to:[node-3]]
+node-3 2022/01/05 23:14:21.321383 node.go:52: do pre-prepare
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 RequestMsg:0xc000303230}
+2022/01/05 23:14:21 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:21 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:21 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:21 map[from:[node-1] operation:[pre-prepare] to:[node-5]]
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 RequestMsg:0xc0003033b0}
+2022/01/05 23:14:21 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:21 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:21 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:21 map[from:[node-1] operation:[pre-prepare] to:[node-4]]
+node-4 2022/01/05 23:14:21.321383 node.go:52: do pre-prepare
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 RequestMsg:0xc000205560}
+2022/01/05 23:14:21 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:21 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:21 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:21 map[from:[node-1] operation:[pre-prepare] to:[node-2]]
+node-2 2022/01/05 23:14:21.321383 node.go:52: do pre-prepare
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 RequestMsg:0xc000389350}
+2022/01/05 23:14:21 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:21 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:21 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:21 map[from:[node-6] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-6 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 1
+2022/01/05 23:14:21 map[from:[node-6] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:21.322383 node.go:52: do prepare
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-6 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 1
+2022/01/05 23:14:21 map[from:[node-3] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:21 map[from:[node-5] operation:[prepare] to:[node-3]]
+node-3 2022/01/05 23:14:21.322383 node.go:52: do prepare
+2022/01/05 23:14:21 map[from:[node-3] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:21.322383 node.go:52: do prepare
+2022/01/05 23:14:21 map[from:[node-5] operation:[prepare] to:[node-6]]
+2022/01/05 23:14:21 map[from:[node-6] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:21.323380 node.go:52: do prepare
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-5 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 1
+2022/01/05 23:14:21 map[from:[node-5] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:21.323380 node.go:52: do prepare
+2022/01/05 23:14:21 map[from:[node-4] operation:[prepare] to:[node-6]]
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-5 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 1
+2022/01/05 23:14:21 map[from:[node-4] operation:[prepare] to:[node-3]]
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-3 MsgType:0}
+node-3 2022/01/05 23:14:21.323380 node.go:52: do prepare
+2022/01/05 23:14:21 map[from:[node-6] operation:[prepare] to:[node-3]]
+2022/01/05 23:14:21 map[from:[node-4] operation:[prepare] to:[node-2]]
+node-3 2022/01/05 23:14:21.323380 node.go:52: do prepare
+node-2 2022/01/05 23:14:21.323380 node.go:52: do prepare
+2022/01/05 23:14:21 map[from:[node-4] operation:[prepare] to:[node-1]]
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-4 MsgType:0}
+node-1 2022/01/05 23:14:21.323380 node.go:52: do prepare
+2022/01/05 23:14:21 map[from:[node-2] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:21 map[from:[node-6] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:21.323380 node.go:52: do prepare
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-4 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 2
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-6 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 3
+2022/01/05 23:14:21 [Prepare-Vote]: 2
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-4 MsgType:0}
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-2 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 3
+2022/01/05 23:14:21 [Prepare-Vote]: 1
+2022/01/05 23:14:21 map[from:[node-3] operation:[prepare] to:[node-1]]
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-6 MsgType:0}
+node-1 2022/01/05 23:14:21.323380 node.go:52: do prepare
+2022/01/05 23:14:21 [Prepare-Vote]: 2
+2022/01/05 23:14:21 map[from:[node-3] operation:[prepare] to:[node-6]]
+2022/01/05 23:14:21 map[from:[node-5] operation:[prepare] to:[node-2]]
+2022/01/05 23:14:21 [Prepare-Vote]: 2
+node-2 2022/01/05 23:14:21.323380 node.go:52: do prepare
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-3 MsgType:0}
+2022/01/05 23:14:21 map[from:[node-3] operation:[prepare] to:[node-2]]
+2022/01/05 23:14:21 map[from:[node-2] operation:[prepare] to:[node-4]]
+node-2 2022/01/05 23:14:21.323380 node.go:52: do prepare
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-4 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 2
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-5 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 3
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-3 MsgType:0}
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-3 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 4
+2022/01/05 23:14:21 [STAGE-DONE] Prepare
+2022/01/05 23:14:21 [Prepare-Vote]: 1
+2022/01/05 23:14:21 map[from:[node-5] operation:[prepare] to:[node-1]]
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-3 MsgType:0}
+node-1 2022/01/05 23:14:21.324378 node.go:52: do prepare
+2022/01/05 23:14:21 [Prepare-Vote]: 3
+2022/01/05 23:14:21 map[from:[node-2] operation:[prepare] to:[node-6]]
+2022/01/05 23:14:21 [Prepare-Vote]: 3
+2022/01/05 23:14:21 [STAGE-BEGIN] Commit
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-6 MsgType:0}
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-5 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 2
+2022/01/05 23:14:21 [Prepare-Vote]: 4
+node-4 2022/01/05 23:14:21.324378 node.go:52: do prepare
+2022/01/05 23:14:21 [STAGE-DONE] Prepare
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-5 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 3
+2022/01/05 23:14:21 [STAGE-BEGIN] Commit
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-2 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 4
+2022/01/05 23:14:21 [STAGE-DONE] Prepare
+2022/01/05 23:14:21 map[from:[node-2] operation:[commit] to:[node-6]]
+2022/01/05 23:14:21 [STAGE-BEGIN] Commit
+2022/01/05 23:14:21 map[from:[node-2] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:21.324378 node.go:52: do commit
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-2 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 4
+2022/01/05 23:14:21 [STAGE-DONE] Prepare
+2022/01/05 23:14:21 [STAGE-BEGIN] Commit
+2022/01/05 23:14:21 [Commit-Vote]: 1
+2022/01/05 23:14:21 [Commit-Vote]: 2
+2022/01/05 23:14:21 map[from:[node-1] operation:[commit] to:[node-6]]
+2022/01/05 23:14:21 map[from:[node-4] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:21 map[from:[node-1] operation:[commit] to:[node-2]]
+node-2 2022/01/05 23:14:21.324378 node.go:52: do commit
+2022/01/05 23:14:21 [Commit-Vote]: 1
+2022/01/05 23:14:21 [Commit-Vote]: 2
+2022/01/05 23:14:21 map[from:[node-2] operation:[commit] to:[node-5]]
+2022/01/05 23:14:21 map[from:[node-2] operation:[commit] to:[node-3]]
+2022/01/05 23:14:21 map[from:[node-2] operation:[prepare] to:[node-1]]
+node-3 2022/01/05 23:14:21.324378 node.go:52: do commit
+node-1 2022/01/05 23:14:21.324378 node.go:52: do prepare
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-4 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 4
+2022/01/05 23:14:21 map[from:[node-1] operation:[commit] to:[node-5]]
+2022/01/05 23:14:21 [STAGE-DONE] Prepare
+2022/01/05 23:14:21 [Commit-Vote]: 1
+2022/01/05 23:14:21 map[from:[node-1] operation:[commit] to:[node-3]]
+2022/01/05 23:14:21 map[from:[node-6] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:21.324378 node.go:52: do commit
+2022/01/05 23:14:21 map[from:[node-2] operation:[prepare] to:[node-3]]
+2022/01/05 23:14:21 [STAGE-BEGIN] Commit
+2022/01/05 23:14:21 map[from:[node-6] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:21.325377 node.go:52: do commit
+node-3 2022/01/05 23:14:21.324378 node.go:52: do commit
+2022/01/05 23:14:21 [Commit-Vote]: 1
+2022/01/05 23:14:21 [Commit-Vote]: 2
+2022/01/05 23:14:21 [Commit-Vote]: 3
+2022/01/05 23:14:21 map[from:[node-6] operation:[commit] to:[node-1]]
+2022/01/05 23:14:21 [Commit-Vote]: 3
+node-1 2022/01/05 23:14:21.325377 node.go:52: do commit
+node-3 2022/01/05 23:14:21.325377 node.go:52: do prepare
+2022/01/05 23:14:21 map[from:[node-6] operation:[commit] to:[node-5]]
+2022/01/05 23:14:21 [Commit-Vote]: 4
+2022/01/05 23:14:21 [STAGE-DONE] Commit
+2022/01/05 23:14:21 [STAGE-DONE] Reply
+2022/01/05 23:14:21 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-2 MsgType:0}
+2022/01/05 23:14:21 [Prepare-Vote]: 4
+2022/01/05 23:14:21 [STAGE-DONE] Prepare
+2022/01/05 23:14:21 [STAGE-BEGIN] Commit
+2022/01/05 23:14:21 map[from:[node-4] operation:[commit] to:[node-1]]
+2022/01/05 23:14:21 map[from:[node-4] operation:[commit] to:[node-3]]
+node-1 2022/01/05 23:14:21.325656 node.go:52: do commit
+2022/01/05 23:14:21 map[from:[node-5] operation:[commit] to:[node-4]]
+node-3 2022/01/05 23:14:21.325656 node.go:52: do commit
+node-4 2022/01/05 23:14:21.325656 node.go:52: do commit
+2022/01/05 23:14:21 map[from:[node-5] operation:[commit] to:[node-6]]
+2022/01/05 23:14:21 map[from:[node-4] operation:[commit] to:[node-5]]
+2022/01/05 23:14:21 map[from:[node-5] operation:[commit] to:[node-2]]
+2022/01/05 23:14:21 [Commit-Vote]: 1
+node-2 2022/01/05 23:14:21.325656 node.go:52: do commit
+2022/01/05 23:14:21 [Commit-Vote]: 4
+2022/01/05 23:14:21 [STAGE-DONE] Commit
+2022/01/05 23:14:21 [Commit-Vote]: 1
+node-4 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+2022/01/05 23:14:21 [Commit-Vote]: 2
+node-4 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+2022/01/05 23:14:21 [Commit-Vote]: 3
+node-4 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-4 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+node-4 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-3, 1641395661, Test, 1641395657282327404
+2022/01/05 23:14:21 [Commit-Vote]: 2
+node-4 2022/01/05 23:14:21.325656 node.go:136: 
+node-4 2022/01/05 23:14:21.325656 node.go:140: Reply Finished!
+2022/01/05 23:14:21 [Commit-Vote]: 3
+2022/01/05 23:14:21 map[from:[node-5] operation:[commit] to:[node-1]]
+node-1 2022/01/05 23:14:21.325656 node.go:52: do commit
+2022/01/05 23:14:21 map[from:[node-5] operation:[commit] to:[node-3]]
+2022/01/05 23:14:21 [STAGE-DONE] Reply
+node-3 2022/01/05 23:14:21.325656 node.go:52: do commit
+2022/01/05 23:14:21 map[from:[node-3] operation:[commit] to:[node-5]]
+2022/01/05 23:14:21 map[from:[node-3] operation:[commit] to:[node-6]]
+2022/01/05 23:14:21 [Commit-Vote]: 3
+2022/01/05 23:14:21 [Commit-Vote]: 2
+2022/01/05 23:14:21 [Commit-Vote]: 2
+2022/01/05 23:14:21 [Commit-Vote]: 3
+2022/01/05 23:14:21 [Commit-Vote]: 4
+2022/01/05 23:14:21 map[from:[node-6] operation:[commit] to:[node-2]]
+node-2 2022/01/05 23:14:21.325656 node.go:52: do commit
+2022/01/05 23:14:21 map[from:[node-4] operation:[commit] to:[node-6]]
+2022/01/05 23:14:21 [STAGE-DONE] Commit
+node-3 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+2022/01/05 23:14:21 map[from:[node-3] operation:[commit] to:[node-1]]
+node-1 2022/01/05 23:14:21.325656 node.go:52: do commit
+node-3 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-3 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-3 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+node-3 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-3, 1641395661, Test, 1641395657282327404
+node-3 2022/01/05 23:14:21.325656 node.go:136: 
+node-3 2022/01/05 23:14:21.325656 node.go:140: Reply Finished!
+2022/01/05 23:14:21 [Commit-Vote]: 3
+2022/01/05 23:14:21 [STAGE-DONE] Reply
+2022/01/05 23:14:21 [Commit-Vote]: 4
+2022/01/05 23:14:21 [STAGE-DONE] Commit
+node-1 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-1 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-1 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-1 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+2022/01/05 23:14:21 map[from:[node-4] operation:[commit] to:[node-2]]
+node-1 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-3, 1641395661, Test, 1641395657282327404
+node-2 2022/01/05 23:14:21.325656 node.go:52: do commit
+node-1 2022/01/05 23:14:21.325656 node.go:136: 
+node-1 2022/01/05 23:14:21.325656 node.go:140: Reply Finished!
+2022/01/05 23:14:21 [STAGE-DONE] Reply
+2022/01/05 23:14:21 [Commit-Vote]: 4
+2022/01/05 23:14:21 [STAGE-DONE] Commit
+node-2 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-2 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-2 2022/01/05 23:14:21.325656 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-2 2022/01/05 23:14:21.326655 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+node-2 2022/01/05 23:14:21.326655 node.go:134: Committed value: node-3, 1641395661, Test, 1641395657282327404
+node-2 2022/01/05 23:14:21.326655 node.go:136: 
+node-2 2022/01/05 23:14:21.326655 node.go:140: Reply Finished!
+2022/01/05 23:14:21 [STAGE-DONE] Reply
+2022/01/05 23:14:21 [Commit-Vote]: 4
+2022/01/05 23:14:21 [STAGE-DONE] Commit
+2022/01/05 23:14:21 [STAGE-DONE] Reply
+2022/01/05 23:14:21 map[from:[node-2] operation:[reply] to:[node-3]]
+node-3 2022/01/05 23:14:21.326655 node.go:52: do reply
+node-3 2022/01/05 23:14:21.326655 node.go:123: Result: Executed by node-2
+2022/01/05 23:14:21 map[from:[node-5] operation:[reply] to:[node-3]]
+node-3 2022/01/05 23:14:21.326655 node.go:52: do reply
+node-3 2022/01/05 23:14:21.326655 node.go:123: Result: Executed by node-5
+2022/01/05 23:14:21 map[from:[node-6] operation:[reply] to:[node-3]]
+node-3 2022/01/05 23:14:21.326655 node.go:52: do reply
+node-3 2022/01/05 23:14:21.326655 node.go:123: Result: Executed by node-6
+2022/01/05 23:14:21 client ended! 1641395661321383 1641395661326655
+node-3 2022/01/05 23:14:21.326655 node.go:116: Request Finished! Delay: 5272
+node-3 2022/01/05 23:14:21.326655 node.go:117: 1641395661321383 1641395661326655
+2022/01/05 23:14:21 map[from:[node-2] operation:[commit] to:[node-1]]
+node-1 2022/01/05 23:14:21.327281 node.go:52: do commit
+2022/01/05 23:14:21 map[from:[node-1] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:21.327281 node.go:52: do commit
+2022/01/05 23:14:21 map[from:[node-3] operation:[commit] to:[node-2]]
+node-2 2022/01/05 23:14:21.327281 node.go:52: do commit
+2022/01/05 23:14:21 map[from:[node-3] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:21.327281 node.go:52: do commit
+2022/01/05 23:14:21 map[from:[node-4] operation:[reply] to:[node-3]]
+node-3 2022/01/05 23:14:21.327281 node.go:52: do reply
+node-3 2022/01/05 23:14:21.327281 node.go:123: Result: Executed by node-4
+2022/01/05 23:14:21 map[from:[node-3] operation:[reply] to:[node-3]]
+node-3 2022/01/05 23:14:21.327281 node.go:52: do reply
+node-3 2022/01/05 23:14:21.327281 node.go:123: Result: Executed by node-3
+2022/01/05 23:14:21 map[from:[node-1] operation:[reply] to:[node-3]]
+node-3 2022/01/05 23:14:21.327281 node.go:52: do reply
+node-3 2022/01/05 23:14:21.327281 node.go:123: Result: Executed by node-1
+2022/01/05 23:14:22 map[from:[center] operation:[client] to:[node-6]]
+2022/01/05 23:14:22 client started! 1641395662328745 1641395662328745
+2022/01/05 23:14:22 map[from:[node-6] operation:[req] to:[node-1]]
+node-1 2022/01/05 23:14:22.328745 node.go:52: do req
+2022/01/05 23:14:22 &{Timestamp:1641395662 ClientID:node-6 Operation:Test SequenceID:0}
+2022/01/05 23:14:22 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:22 [STAGE-BEGIN] Consensus Process (ViewID:10000000000)
+2022/01/05 23:14:22 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:22 map[from:[node-1] operation:[pre-prepare] to:[node-6]]
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e RequestMsg:0xc00032c810}
+2022/01/05 23:14:22 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:22 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:22 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:22 map[from:[node-1] operation:[pre-prepare] to:[node-3]]
+node-3 2022/01/05 23:14:22.329754 node.go:52: do pre-prepare
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e RequestMsg:0xc00032cbd0}
+2022/01/05 23:14:22 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:22 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:22 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:22 map[from:[node-1] operation:[pre-prepare] to:[node-4]]
+node-4 2022/01/05 23:14:22.329754 node.go:52: do pre-prepare
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e RequestMsg:0xc000089050}
+2022/01/05 23:14:22 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:22 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:22 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:22 map[from:[node-1] operation:[pre-prepare] to:[node-2]]
+node-2 2022/01/05 23:14:22.329754 node.go:52: do pre-prepare
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e RequestMsg:0xc00050cf90}
+2022/01/05 23:14:22 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:22 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:22 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:22 map[from:[node-3] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:22 map[from:[node-6] operation:[prepare] to:[node-3]]
+node-3 2022/01/05 23:14:22.331746 node.go:52: do prepare
+2022/01/05 23:14:22 map[from:[node-6] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:22 map[from:[node-1] operation:[pre-prepare] to:[node-5]]
+2022/01/05 23:14:22 map[from:[node-3] operation:[prepare] to:[node-1]]
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-6 MsgType:0}
+node-1 2022/01/05 23:14:22.331746 node.go:52: do prepare
+2022/01/05 23:14:22 map[from:[node-6] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:22.331746 node.go:52: do prepare
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e RequestMsg:0xc0006024b0}
+2022/01/05 23:14:22 [STAGE-DONE] Create the replica status
+2022/01/05 23:14:22 [STAGE-DONE] Pre-prepare
+2022/01/05 23:14:22 [STAGE-BEGIN] Prepare
+2022/01/05 23:14:22 map[from:[node-4] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:22.331746 node.go:52: do prepare
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-6 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 1
+2022/01/05 23:14:22 map[from:[node-3] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:22.331746 node.go:52: do prepare
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327404 Digest:0ece283d532ccb6a9cba3eb13d6667d525c3f4832c83693af06db6c41cd2f982 NodeID:node-2 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 1
+2022/01/05 23:14:22 map[from:[node-4] operation:[prepare] to:[node-3]]
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-3 MsgType:0}
+node-3 2022/01/05 23:14:22.331746 node.go:52: do prepare
+2022/01/05 23:14:22 [Prepare-Vote]: 1
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-3 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 2
+2022/01/05 23:14:22 map[from:[node-2] operation:[prepare] to:[node-3]]
+node-3 2022/01/05 23:14:22.331746 node.go:52: do prepare
+2022/01/05 23:14:22 map[from:[node-2] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-4 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 3
+2022/01/05 23:14:22 map[from:[node-5] operation:[prepare] to:[node-2]]
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-3 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 1
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-6 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 2
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-2 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 3
+2022/01/05 23:14:22 map[from:[node-2] operation:[prepare] to:[node-4]]
+2022/01/05 23:14:22 map[from:[node-4] operation:[prepare] to:[node-6]]
+node-4 2022/01/05 23:14:22.331746 node.go:52: do prepare
+node-2 2022/01/05 23:14:22.331746 node.go:52: do prepare
+2022/01/05 23:14:22 map[from:[node-6] operation:[prepare] to:[node-4]]
+2022/01/05 23:14:22 [Prepare-Vote]: 1
+node-4 2022/01/05 23:14:22.331746 node.go:52: do prepare
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-2 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 2
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-6 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 3
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-5 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 2
+2022/01/05 23:14:22 map[from:[node-5] operation:[prepare] to:[node-6]]
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-4 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 1
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-5 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 2
+2022/01/05 23:14:22 map[from:[node-5] operation:[prepare] to:[node-4]]
+node-4 2022/01/05 23:14:22.333554 node.go:52: do prepare
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-5 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 4
+2022/01/05 23:14:22 [STAGE-DONE] Prepare
+2022/01/05 23:14:22 [STAGE-BEGIN] Commit
+2022/01/05 23:14:22 map[from:[node-3] operation:[prepare] to:[node-6]]
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-4 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 2
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-2 MsgType:0}
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-3 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 3
+2022/01/05 23:14:22 [Prepare-Vote]: 3
+2022/01/05 23:14:22 map[from:[node-4] operation:[commit] to:[node-5]]
+2022/01/05 23:14:22 map[from:[node-4] operation:[commit] to:[node-6]]
+2022/01/05 23:14:22 map[from:[node-4] operation:[commit] to:[node-2]]
+node-2 2022/01/05 23:14:22.333554 node.go:52: do commit
+2022/01/05 23:14:22 map[from:[node-6] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:22.333554 node.go:52: do prepare
+2022/01/05 23:14:22 map[from:[node-3] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:22.333554 node.go:52: do prepare
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-6 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 4
+2022/01/05 23:14:22 [STAGE-DONE] Prepare
+2022/01/05 23:14:22 [STAGE-BEGIN] Commit
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-3 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 3
+2022/01/05 23:14:22 map[from:[node-1] operation:[commit] to:[node-2]]
+node-2 2022/01/05 23:14:22.333554 node.go:52: do commit
+2022/01/05 23:14:22 map[from:[node-4] operation:[prepare] to:[node-2]]
+node-2 2022/01/05 23:14:22.333554 node.go:52: do prepare
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-4 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 4
+2022/01/05 23:14:22 [STAGE-DONE] Prepare
+2022/01/05 23:14:22 map[from:[node-4] operation:[prepare] to:[node-5]]
+2022/01/05 23:14:22 [STAGE-BEGIN] Commit
+2022/01/05 23:14:22 map[from:[node-1] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:22.334121 node.go:52: do commit
+2022/01/05 23:14:22 map[from:[node-2] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:22.334121 node.go:52: do prepare
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-4 MsgType:0}
+2022/01/05 23:14:22 [Prepare-Vote]: 4
+2022/01/05 23:14:22 [STAGE-DONE] Prepare
+2022/01/05 23:14:22 [STAGE-BEGIN] Commit
+2022/01/05 23:14:22 map[from:[node-2] operation:[prepare] to:[node-6]]
+2022/01/05 23:14:22 map[from:[node-5] operation:[prepare] to:[node-1]]
+node-1 2022/01/05 23:14:22.334121 node.go:52: do prepare
+2022/01/05 23:14:22 map[from:[node-2] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:22.334121 node.go:52: do commit
+2022/01/05 23:14:22 map[from:[node-4] operation:[commit] to:[node-1]]
+node-1 2022/01/05 23:14:22.335122 node.go:52: do commit
+2022/01/05 23:14:22 [Commit-Vote]: 1
+2022/01/05 23:14:22 map[from:[node-1] operation:[commit] to:[node-5]]
+2022/01/05 23:14:22 [Commit-Vote]: 2
+2022/01/05 23:14:22 map[from:[node-5] operation:[commit] to:[node-3]]
+2022/01/05 23:14:22 [Commit-Vote]: 1
+2022/01/05 23:14:22 [Commit-Vote]: 2
+node-3 2022/01/05 23:14:22.335122 node.go:52: do commit
+2022/01/05 23:14:22 [Commit-Vote]: 2
+2022/01/05 23:14:22 map[from:[node-4] operation:[commit] to:[node-3]]
+node-3 2022/01/05 23:14:22.335122 node.go:52: do commit
+2022/01/05 23:14:22 map[from:[node-1] operation:[commit] to:[node-6]]
+2022/01/05 23:14:22 map[from:[node-2] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:22.335122 node.go:52: do commit
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-2 MsgType:0}
+2022/01/05 23:14:22 map[from:[node-5] operation:[prepare] to:[node-3]]
+2022/01/05 23:14:22 map[from:[node-5] operation:[commit] to:[node-1]]
+node-3 2022/01/05 23:14:22.335122 node.go:52: do prepare
+node-1 2022/01/05 23:14:22.335122 node.go:52: do commit
+2022/01/05 23:14:22 [Commit-Vote]: 3
+2022/01/05 23:14:22 map[from:[node-2] operation:[commit] to:[node-5]]
+2022/01/05 23:14:22 map[from:[node-5] operation:[commit] to:[node-2]]
+2022/01/05 23:14:22 &{ViewID:10000000000 SequenceID:1641395657282327405 Digest:57d2f94a4e5acd697212ed7ff3b930861d1db6f4c8b57b8de9b185b2a6bca02e NodeID:node-5 MsgType:0}
+node-2 2022/01/05 23:14:22.335122 node.go:52: do commit
+2022/01/05 23:14:22 [Prepare-Vote]: 4
+2022/01/05 23:14:22 [STAGE-DONE] Prepare
+2022/01/05 23:14:22 [Commit-Vote]: 3
+2022/01/05 23:14:22 map[from:[node-1] operation:[commit] to:[node-4]]
+2022/01/05 23:14:22 map[from:[node-2] operation:[commit] to:[node-1]]
+node-4 2022/01/05 23:14:22.335122 node.go:52: do commit
+2022/01/05 23:14:22 [Commit-Vote]: 4
+node-1 2022/01/05 23:14:22.335122 node.go:52: do commit
+2022/01/05 23:14:22 [STAGE-DONE] Commit
+2022/01/05 23:14:22 [Commit-Vote]: 1
+2022/01/05 23:14:22 [Prepare-Vote]: 4
+2022/01/05 23:14:22 [STAGE-DONE] Reply
+2022/01/05 23:14:22 [STAGE-DONE] Prepare
+2022/01/05 23:14:22 [Commit-Vote]: 2
+2022/01/05 23:14:22 [Commit-Vote]: 3
+2022/01/05 23:14:22 map[from:[node-3] operation:[commit] to:[node-5]]
+2022/01/05 23:14:22 map[from:[node-3] operation:[commit] to:[node-6]]
+2022/01/05 23:14:22 map[from:[node-5] operation:[commit] to:[node-6]]
+2022/01/05 23:14:22 [STAGE-BEGIN] Commit
+2022/01/05 23:14:22 [Commit-Vote]: 1
+2022/01/05 23:14:22 [Commit-Vote]: 1
+2022/01/05 23:14:22 [Commit-Vote]: 2
+2022/01/05 23:14:22 map[from:[node-5] operation:[commit] to:[node-4]]
+2022/01/05 23:14:22 [STAGE-BEGIN] Commit
+2022/01/05 23:14:22 [Commit-Vote]: 1
+2022/01/05 23:14:22 [Commit-Vote]: 4
+2022/01/05 23:14:22 [STAGE-DONE] Commit
+2022/01/05 23:14:22 map[from:[node-2] operation:[commit] to:[node-6]]
+2022/01/05 23:14:22 [Commit-Vote]: 2
+node-2 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+node-2 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-2 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-2 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+node-2 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-3, 1641395661, Test, 1641395657282327404
+node-2 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-6, 1641395662, Test, 1641395657282327405
+node-2 2022/01/05 23:14:22.335484 node.go:136: 
+node-2 2022/01/05 23:14:22.335484 node.go:140: Reply Finished!
+2022/01/05 23:14:22 [Commit-Vote]: 3
+2022/01/05 23:14:22 map[from:[node-3] operation:[commit] to:[node-2]]
+2022/01/05 23:14:22 [Commit-Vote]: 3
+node-2 2022/01/05 23:14:22.335484 node.go:52: do commit
+2022/01/05 23:14:22 [STAGE-DONE] Reply
+2022/01/05 23:14:22 [Commit-Vote]: 4
+2022/01/05 23:14:22 [STAGE-DONE] Commit
+2022/01/05 23:14:22 [STAGE-DONE] Reply
+node-4 2022/01/05 23:14:22.335484 node.go:52: do commit
+2022/01/05 23:14:22 [Commit-Vote]: 3
+2022/01/05 23:14:22 map[from:[node-6] operation:[commit] to:[node-5]]
+2022/01/05 23:14:22 map[from:[node-3] operation:[commit] to:[node-1]]
+2022/01/05 23:14:22 map[from:[node-6] operation:[commit] to:[node-2]]
+node-1 2022/01/05 23:14:22.335484 node.go:52: do commit
+node-2 2022/01/05 23:14:22.335484 node.go:52: do commit
+2022/01/05 23:14:22 [Commit-Vote]: 3
+2022/01/05 23:14:22 [Commit-Vote]: 4
+2022/01/05 23:14:22 map[from:[node-3] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:22.335484 node.go:52: do commit
+2022/01/05 23:14:22 map[from:[node-5] operation:[reply] to:[node-6]]
+2022/01/05 23:14:22 [Commit-Vote]: 4
+2022/01/05 23:14:22 [STAGE-DONE] Commit
+2022/01/05 23:14:22 map[from:[node-6] operation:[commit] to:[node-3]]
+node-1 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+2022/01/05 23:14:22 map[from:[node-6] operation:[commit] to:[node-1]]
+node-3 2022/01/05 23:14:22.335484 node.go:52: do commit
+node-1 2022/01/05 23:14:22.335484 node.go:52: do commit
+node-1 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-1 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-1 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+node-1 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-3, 1641395661, Test, 1641395657282327404
+node-1 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-6, 1641395662, Test, 1641395657282327405
+2022/01/05 23:14:22 [Commit-Vote]: 1
+node-1 2022/01/05 23:14:22.335484 node.go:136: 
+2022/01/05 23:14:22 [Commit-Vote]: 2
+2022/01/05 23:14:22 [Commit-Vote]: 3
+node-1 2022/01/05 23:14:22.335484 node.go:140: Reply Finished!
+2022/01/05 23:14:22 [Commit-Vote]: 4
+2022/01/05 23:14:22 [STAGE-DONE] Commit
+node-3 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+2022/01/05 23:14:22 map[from:[node-2] operation:[reply] to:[node-6]]
+node-3 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-3 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-3 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+node-3 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-3, 1641395661, Test, 1641395657282327404
+node-3 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-6, 1641395662, Test, 1641395657282327405
+node-3 2022/01/05 23:14:22.335484 node.go:136: 
+node-3 2022/01/05 23:14:22.335484 node.go:140: Reply Finished!
+2022/01/05 23:14:22 [STAGE-DONE] Reply
+2022/01/05 23:14:22 map[from:[node-1] operation:[reply] to:[node-6]]
+2022/01/05 23:14:22 [STAGE-DONE] Commit
+node-4 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-1, 1641395657, Test, 1641395657282327400
+2022/01/05 23:14:22 [STAGE-DONE] Reply
+2022/01/05 23:14:22 client ended! 1641395662328745 1641395662335484
+node-4 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-2, 1641395658, Test, 1641395657282327401
+node-4 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-1, 1641395659, Test, 1641395657282327402
+node-4 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-4, 1641395660, Test, 1641395657282327403
+node-4 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-3, 1641395661, Test, 1641395657282327404
+node-4 2022/01/05 23:14:22.335484 node.go:134: Committed value: node-6, 1641395662, Test, 1641395657282327405
+node-4 2022/01/05 23:14:22.335484 node.go:136: 
+node-4 2022/01/05 23:14:22.335484 node.go:140: Reply Finished!
+2022/01/05 23:14:22 map[from:[node-3] operation:[reply] to:[node-6]]
+2022/01/05 23:14:22 [STAGE-DONE] Reply
+2022/01/05 23:14:22 map[from:[node-6] operation:[commit] to:[node-4]]
+node-4 2022/01/05 23:14:22.335484 node.go:52: do commit
+2022/01/05 23:14:22 map[from:[node-4] operation:[reply] to:[node-6]]
+2022/01/05 23:14:22 map[from:[node-6] operation:[reply] to:[node-6]]
+2022/01/05 23:14:23 6 6005 [5272 6739]
